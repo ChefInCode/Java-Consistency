@@ -16,6 +16,13 @@ public class dailyLogics {
         // monkeyTrouble(true, true) → true
         // monkeyTrouble(false, false) → true
         // monkeyTrouble(true, false) → false
-        System.out.println(lc.monkeyTrouble(false,true));
+        System.out.println(lc.monkeyTrouble(false, true));
+
+        // Given two int values, return their sum. Unless the two values are the same,
+        // then return double their sum.
+        // sumDouble(1, 2) → 3
+        // sumDouble(3, 2) → 5
+        // sumDouble(2, 2) → 8
+        System.out.println(lc.sumDouble(9, 4));
     }
 }

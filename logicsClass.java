@@ -10,4 +10,9 @@ public class logicsClass implements logicsInterface {
         return ((aSmile && bSmile) || (!aSmile && !bSmile)) ? true : false;
     }
 
+    @Override
+    public int sumDouble(int a, int b) {
+        return (a == b) ? (a + b) * 2 : a + b;
+    }
+
 }
