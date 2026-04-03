@@ -5,4 +5,9 @@ public class logicsClass implements logicsInterface {
         return (!weekday || vacation) ? true : false;
     }
 
+    @Override
+    public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
+        return ((aSmile && bSmile) || (!aSmile && !bSmile)) ? true : false;
+    }
+
 }
