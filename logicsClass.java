@@ -15,4 +15,9 @@ public class logicsClass implements logicsInterface {
         return (a == b) ? (a + b) * 2 : a + b;
     }
 
+    @Override
+    public int diff21(int n) {
+        return (n > 21) ? (n - 21) * 2 : (21 - n);
+    }
+
 }
