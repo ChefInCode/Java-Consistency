@@ -20,4 +20,14 @@ public class logicsClass implements logicsInterface {
         return (n > 21) ? (n - 21) * 2 : (21 - n);
     }
 
+    @Override
+    public boolean parrotTrouble(boolean talking, int hour) {
+        return (talking && (hour < 7 || hour > 20)) ? true : false;
+    }
+
+    @Override
+    public boolean makes10(int a, int b) {
+        return (a == 10 || b == 10 || (a + b) == 10) ? true : false;
+    }
+
 }
