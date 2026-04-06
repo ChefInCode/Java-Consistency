@@ -7,5 +7,6 @@ public interface logicsInterface {
     public boolean makes10(int a, int b);
     public boolean nearHundred(int n);
     public boolean posNeg(int a, int b, boolean negative);
+    public String notString(String str);
 
 }

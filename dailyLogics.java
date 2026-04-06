@@ -55,5 +55,11 @@ public class dailyLogics {
         // posNeg(-1, 1, false) → true
         // posNeg(-4, -5, true) → true
         System.out.println(lc.posNeg(-4, -5, true));
+
+        // Given a string, return a new string where "not " has been added to the front. However, if the string already begins with "not", return the string unchanged. Note: use .equals() to compare 2 strings.
+        // notString("candy") → "not candy"
+        // notString("x") → "not x"
+        // notString("not bad") → "not bad"
+        System.out.println(lc.notString("not bad"));
 }
 }

@@ -41,4 +41,10 @@ public class logicsClass implements logicsInterface {
         return (negative) ? (a < 0 && b < 0) ? true : false : ((a >= 0 && b < 0) || (a < 0 && b >= 0)) ? true : false;
 
     }
+
+    @Override
+    public String notString(String str) {
+        return (str.startsWith("not")) ? str : "not " + str;
+    }
+
 }
