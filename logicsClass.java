@@ -30,4 +30,9 @@ public class logicsClass implements logicsInterface {
         return (a == 10 || b == 10 || (a + b) == 10) ? true : false;
     }
 
+    @Override
+    public boolean nearHundred(int n) {
+        return ((-10 <= (100 - n) && (100 - n) <= 10) || (-10 <= (200 - n) && (200 - n) <= 10)) ? true : false;
+    }
+
 }

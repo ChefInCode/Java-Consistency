@@ -43,5 +43,11 @@ public class dailyLogics {
         // makes10(9, 9) → false
         // makes10(1, 9) → true
         System.out.println(lc.makes10(1, 9));
+
+        // Given an int n, return true if it is within 10 of 100 or 200. Note: Math.abs(num) computes the absolute value of a number.
+        // nearHundred(93) → true
+        // nearHundred(90) → true
+        // nearHundred(89) → false
+        System.out.println(lc.nearHundred(89));
 }
 }
