@@ -35,4 +35,10 @@ public class logicsClass implements logicsInterface {
         return ((-10 <= (100 - n) && (100 - n) <= 10) || (-10 <= (200 - n) && (200 - n) <= 10)) ? true : false;
     }
 
+    @Override
+    public boolean posNeg(int a, int b, boolean negative) {
+
+        return (negative) ? (a < 0 && b < 0) ? true : false : ((a >= 0 && b < 0) || (a < 0 && b >= 0)) ? true : false;
+
+    }
 }

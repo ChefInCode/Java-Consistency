@@ -49,5 +49,11 @@ public class dailyLogics {
         // nearHundred(90) → true
         // nearHundred(89) → false
         System.out.println(lc.nearHundred(89));
+
+        // Given 2 int values, return true if one is negative and one is positive. Except if the parameter "negative" is true, then return true only if both are negative.
+        // posNeg(1, -1, false) → true
+        // posNeg(-1, 1, false) → true
+        // posNeg(-4, -5, true) → true
+        System.out.println(lc.posNeg(-4, -5, true));
 }
 }

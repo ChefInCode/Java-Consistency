@@ -6,5 +6,6 @@ public interface logicsInterface {
     public boolean parrotTrouble(boolean talking, int hour);
     public boolean makes10(int a, int b);
     public boolean nearHundred(int n);
+    public boolean posNeg(int a, int b, boolean negative);
 
 }
