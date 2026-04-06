@@ -47,4 +47,15 @@ public class logicsClass implements logicsInterface {
         return (str.startsWith("not")) ? str : "not " + str;
     }
 
+    @Override
+    public String missingChar(String str, int n) {
+        String op = "";
+        for (int i = 0; i < str.length(); i++) {
+            if (i == n)
+                continue;
+            op = op + str.charAt(i);
+        }
+        return op;
+    }
+
 }
