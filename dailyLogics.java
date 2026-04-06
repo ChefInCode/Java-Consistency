@@ -67,5 +67,11 @@ public class dailyLogics {
         // missingChar("kitten", 0) → "itten"
         // missingChar("kitten", 4) → "kittn"
         System.out.println(lc.missingChar("kitten", 1));    
+
+        // Given a string, return a new string where the first and last chars have been exchanged.
+        // frontBack("code") → "eodc"
+        // frontBack("a") → "a"
+        // frontBack("ab") → "ba"
+        System.out.println(lc.frontBack("code"));
 }
 }

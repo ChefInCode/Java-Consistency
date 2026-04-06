@@ -58,4 +58,10 @@ public class logicsClass implements logicsInterface {
         return op;
     }
 
+    @Override
+    public String frontBack(String str) {
+        return (str.length() > 1) ? str.charAt(str.length() - 1) + str.substring(1, str.length() - 1) + str.charAt(0)
+                : str;
+    }
+
 }

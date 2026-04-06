@@ -9,5 +9,6 @@ public interface logicsInterface {
     public boolean posNeg(int a, int b, boolean negative);
     public String notString(String str);
     public String missingChar(String str, int n);
+    public String frontBack(String str) ;
 
 }
