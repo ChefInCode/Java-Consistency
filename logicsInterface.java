@@ -15,5 +15,6 @@ public interface logicsInterface {
     public boolean or35(int n);
     public String front22(String str) ;
     public boolean startHi(String str);
+    public boolean icyHot(int temp1, int temp2);
 
 }
