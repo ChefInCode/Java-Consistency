@@ -97,5 +97,11 @@ public class dailyLogics {
         // front22("Ha") → "HaHaHa"
         // front22("abc") → "ababcab"
         System.out.println(lc.front22("kitten"));
+
+        // Given a string, return true if the string starts with "hi" and false otherwise.
+        // startHi("hi there") → true
+        // startHi("hi") → true
+        // startHi("hello hi") → false
+        System.out.println(lc.startHi("hi there"));
     }
 }
