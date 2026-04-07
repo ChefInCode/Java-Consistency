@@ -76,4 +76,9 @@ public class logicsClass implements logicsInterface {
         return str.charAt(str.length() - 1) + str + str.charAt(str.length() - 1);
     }
 
+    @Override
+    public boolean or35(int n) {
+        return (n % 3 == 0 || n % 5 == 0) ? true : false;
+    }
+
 }

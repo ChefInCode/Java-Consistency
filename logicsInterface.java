@@ -12,5 +12,6 @@ public interface logicsInterface {
     public String frontBack(String str) ;
     public String front3(String str);
     public String backAround(String str);
+    public boolean or35(int n);
 
 }
