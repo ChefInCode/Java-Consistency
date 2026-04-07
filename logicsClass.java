@@ -64,4 +64,11 @@ public class logicsClass implements logicsInterface {
                 : str;
     }
 
+    @Override
+    public String front3(String str) {
+        return (str.length() > 2) ? str.substring(0, 3) + str.substring(0, 3) + str.substring(0, 3)
+                : str + str + str;
+
+    }
+
 }

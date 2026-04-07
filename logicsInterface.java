@@ -10,5 +10,6 @@ public interface logicsInterface {
     public String notString(String str);
     public String missingChar(String str, int n);
     public String frontBack(String str) ;
+    public String front3(String str);
 
 }
