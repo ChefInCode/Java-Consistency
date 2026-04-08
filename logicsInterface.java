@@ -20,5 +20,6 @@ public interface logicsInterface {
     public boolean in3050(int a, int b);
     public int max1020(int a, int b);
     public boolean stringE(String str) ;
+    public int intMax(int a, int b, int c);
 
 }

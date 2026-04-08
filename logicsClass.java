@@ -135,4 +135,9 @@ public class logicsClass implements logicsInterface {
         return (count >= 1 && count <= 3) ? true : false;
     }
 
+    @Override
+    public int intMax(int a, int b, int c) {
+        return Math.max(Math.max(a, b), c);
+    }
+
 }
