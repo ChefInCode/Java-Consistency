@@ -121,5 +121,11 @@ public class dailyLogics {
         // in3050(30, 41) → false
         // in3050(40, 50) → true
         System.out.println(lc.in3050(30, 31));
+
+        // Given 2 positive int values, return the larger value that is in the range 10..20 inclusive, or return 0 if neither is in that range.
+        // max1020(11, 19) → 19
+        // max1020(19, 11) → 19
+        // max1020(11, 9) → 11
+        System.out.println(lc.max1020(11, 19));
     }
 }

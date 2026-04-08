@@ -18,5 +18,6 @@ public interface logicsInterface {
     public boolean icyHot(int temp1, int temp2);
     public int close10(int a, int b);
     public boolean in3050(int a, int b);
+    public int max1020(int a, int b);
 
 }
