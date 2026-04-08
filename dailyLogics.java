@@ -139,5 +139,11 @@ public class dailyLogics {
         // intMax(1, 3, 2) → 3
         // intMax(3, 2, 1) → 3
         System.out.println(lc.intMax(1, 2, 3));
+
+        // Given a string, return a string made of the first 2 chars (if present), however include first char only if it is 'o' and include the second only if it is 'z', so "ozymandias" yields "oz".
+        // startOz("ozymandias") → "oz"
+        // startOz("bzoo") → "z"
+        // startOz("oxx") → "o"
+        System.out.println(lc.startOz("ozymandias"));
     }
 }

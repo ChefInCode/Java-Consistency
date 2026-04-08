@@ -21,5 +21,6 @@ public interface logicsInterface {
     public int max1020(int a, int b);
     public boolean stringE(String str) ;
     public int intMax(int a, int b, int c);
+    public String startOz(String str);
 
 }

@@ -140,4 +140,16 @@ public class logicsClass implements logicsInterface {
         return Math.max(Math.max(a, b), c);
     }
 
+    @Override
+    public String startOz(String str) {
+        String newStr = "";
+        if (str.length() > 0 && str.substring(0, 1).equalsIgnoreCase("o"))
+            newStr = "o";
+        if (str.length() > 1 && str.substring(1, 2).equalsIgnoreCase("z"))
+            newStr = newStr + "z";
+
+        return newStr;
+
+    }
+
 }
