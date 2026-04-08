@@ -17,5 +17,6 @@ public interface logicsInterface {
     public boolean startHi(String str);
     public boolean icyHot(int temp1, int temp2);
     public int close10(int a, int b);
+    public boolean in3050(int a, int b);
 
 }
