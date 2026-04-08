@@ -122,4 +122,17 @@ public class logicsClass implements logicsInterface {
             return b;
         return 0;
     }
+
+    @Override
+    public boolean stringE(String str) {
+        int i = 0, count = 0;
+        while (i != str.length()) {
+            if (str.charAt(i) == 'e')
+                count++;
+            i++;
+        }
+
+        return (count >= 1 && count <= 3) ? true : false;
+    }
+
 }

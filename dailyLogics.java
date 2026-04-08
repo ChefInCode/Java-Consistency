@@ -127,5 +127,11 @@ public class dailyLogics {
         // max1020(19, 11) → 19
         // max1020(11, 9) → 11
         System.out.println(lc.max1020(11, 19));
+
+        // Return true if the given string contains between 1 and 3 'e' chars.
+        // stringE("Hello") → true
+        // stringE("Heelle") → true
+        // stringE("Heelele") → false
+        System.out.println(lc.stringE("Hello"));
     }
 }
