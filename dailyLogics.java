@@ -109,5 +109,11 @@ public class dailyLogics {
         // icyHot(-1, 120) → true
         // icyHot(2, 120) → false
         System.out.println(lc.icyHot(120, -1));
+
+        // Given 2 int values, return whichever value is nearest to the value 10, or return 0 in the event of a tie. Note that Math.abs(n) returns the absolute value of a number.
+        // close10(8, 13) → 8
+        // close10(13, 8) → 8
+        // close10(13, 7) → 0
+        System.out.println(lc.close10(8, 13));
     }
 }

@@ -96,4 +96,14 @@ public class logicsClass implements logicsInterface {
         return ((temp1 < 0 && temp2 > 100) || (temp2 < 0 && temp1 > 100)) ? true : false;
     }
 
+    @Override
+    public int close10(int a, int b) {
+
+        int as = (a > 10) ? a - 10 : 10 - a;
+        int bs = (b > 10) ? b - 10 : 10 - b;
+
+        return (as < bs) ? a : (bs < as) ? b : 0;
+
+    }
+
 }
