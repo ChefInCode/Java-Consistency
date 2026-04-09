@@ -152,4 +152,9 @@ public class logicsClass implements logicsInterface {
 
     }
 
+    @Override
+    public boolean lastDigit(int a, int b) {
+        return ((a % 10) == (b % 10)) ? true : false;
+    }
+
 }
