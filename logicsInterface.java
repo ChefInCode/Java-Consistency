@@ -24,5 +24,6 @@ public interface logicsInterface {
     public String startOz(String str);
     public boolean lastDigit(int a, int b);
      public String endUp(String str);
+     public String everyNth(String str, int n);
 
 }
