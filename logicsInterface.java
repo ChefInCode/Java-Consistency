@@ -23,5 +23,6 @@ public interface logicsInterface {
     public int intMax(int a, int b, int c);
     public String startOz(String str);
     public boolean lastDigit(int a, int b);
+     public String endUp(String str);
 
 }
