@@ -223,4 +223,13 @@ public class logicsClass implements logicsInterface {
         return false;
     }
 
+    @Override
+    public String stringBits(String str) {
+        String resStr = "";
+        for (int i = 0; i < str.length(); i += 2) {
+            resStr += str.charAt(i);
+        }
+        return resStr;
+    }
+
 }
