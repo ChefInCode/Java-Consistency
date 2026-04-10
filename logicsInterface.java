@@ -25,5 +25,6 @@ public interface logicsInterface {
     public boolean lastDigit(int a, int b);
      public String endUp(String str);
      public String everyNth(String str, int n);
+     public String stringTimes(String str, int n);
 
 }

@@ -173,4 +173,13 @@ public class logicsClass implements logicsInterface {
         return newStr;
     }
 
+    @Override
+    public String stringTimes(String str, int n) {
+        String finalStr = "";
+        for (int i = 1; i <= n; i++) {
+            finalStr += str;
+        }
+        return finalStr;
+    }
+
 }

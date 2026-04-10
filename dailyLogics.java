@@ -163,5 +163,12 @@ public class dailyLogics {
         // everyNth("abcdefg", 2) → "aceg"
         // everyNth("abcdefg", 3) → "adg"
         System.out.println(lc.everyNth("Miracle", 2));
+
+
+        // Given a string and a non-negative int n, return a larger string that is n copies of the original string.
+        // stringTimes("Hi", 2) → "HiHi"
+        // stringTimes("Hi", 3) → "HiHiHi"
+        // stringTimes("Hi", 1) → "Hi"
+        System.out.println(lc.stringTimes("Hi", 3));
     }
 }
