@@ -198,4 +198,15 @@ public class logicsClass implements logicsInterface {
 
     }
 
+    @Override
+    public int countXX(String str) {
+        int count = 0;
+        for (int i = 0; i < str.length() - 1; i++) {
+            if (str.charAt(i) == 'x' && (str.charAt(i) == str.charAt(i + 1))) {
+                count++;
+            }
+        }
+        return count;
+    }
+
 }
