@@ -28,5 +28,6 @@ public interface logicsInterface {
      public String stringTimes(String str, int n);
      public String frontTimes(String str, int n);
      int countXX(String str);
+     public boolean doubleX(String str);
 
 }
