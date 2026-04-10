@@ -26,5 +26,6 @@ public interface logicsInterface {
      public String endUp(String str);
      public String everyNth(String str, int n);
      public String stringTimes(String str, int n);
+     public String frontTimes(String str, int n);
 
 }

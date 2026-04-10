@@ -170,5 +170,11 @@ public class dailyLogics {
         // stringTimes("Hi", 3) → "HiHiHi"
         // stringTimes("Hi", 1) → "Hi"
         System.out.println(lc.stringTimes("Hi", 3));
+
+        // Given a string and a non-negative int n, we'll say that the front of the string is the first 3 chars, or whatever is there if the string is less than length 3. Return n copies of the front;
+        // frontTimes("Chocolate", 2) → "ChoCho"
+        // frontTimes("Chocolate", 3) → "ChoChoCho"
+        // frontTimes("Abc", 3) → "AbcAbcAbc"
+        System.out.println(lc.frontTimes("Chocolate", 2));
     }
 }

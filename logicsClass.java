@@ -182,4 +182,20 @@ public class logicsClass implements logicsInterface {
         return finalStr;
     }
 
+    @Override
+    public String frontTimes(String str, int n) {
+        String finalStr = "";
+        if (str.length() > 3) {
+            for (int i = 1; i <= n; i++) {
+                finalStr += str.substring(0, 3);
+            }
+        } else {
+            for (int i = 1; i <= n; i++) {
+                finalStr += str;
+            }
+        }
+        return finalStr;
+
+    }
+
 }
