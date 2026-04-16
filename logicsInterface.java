@@ -33,5 +33,6 @@ public interface logicsInterface {
      public String stringSplosion(String str);
      public int last2(String str);
       public int arrayCount9(int[] nums) ;
+      public boolean arrayFront9(int[] nums);
 
 }
