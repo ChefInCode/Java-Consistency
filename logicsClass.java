@@ -232,4 +232,16 @@ public class logicsClass implements logicsInterface {
         return resStr;
     }
 
+    @Override
+    public String stringSplosion(String str) {
+        int i = 0;
+        String res = "";
+        while (i < str.length()) {
+
+            res += str.substring(0, i + 1);
+            i++;
+        }
+        return res;
+    }
+
 }

@@ -194,5 +194,11 @@ public class dailyLogics {
         // stringBits("Hi") → "H"
         // stringBits("Heeololeo") → "Hello"
         System.out.println(lc.stringBits("Hello"));
+
+        // Given a non-empty string like "Code" return a string like "CCoCodCode".
+        // stringSplosion("Code") → "CCoCodCode"
+        // stringSplosion("abc") → "aababc"
+        // stringSplosion("ab") → "aab"
+        System.out.println(lc.stringSplosion("Code"));
     }
 }

@@ -30,5 +30,6 @@ public interface logicsInterface {
      int countXX(String str);
      public boolean doubleX(String str);
      public String stringBits(String str);
+     public String stringSplosion(String str);
 
 }
