@@ -34,5 +34,5 @@ public interface logicsInterface {
      public int last2(String str);
       public int arrayCount9(int[] nums) ;
       public boolean arrayFront9(int[] nums);
-
+    public int stringMatch(String a, String b) ;
 }

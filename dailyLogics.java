@@ -218,5 +218,11 @@ public class dailyLogics {
         // arrayFront9([1, 2, 3, 4, 9]) → false
         // arrayFront9([1, 2, 3, 4, 5]) → false
         System.out.println(lc.arrayFront9(new int[]{1, 2, 9, 3, 4}));
+
+        // Given 2 strings, a and b, return the number of the positions where they contain the same length 2 substring. So "xxcaazz" and "xxbaaz" yields 3, since the "xx", "aa", and "az" substrings appear in the same place in both strings.
+        // stringMatch("xxcaazz", "xxbaaz") → 3
+        // stringMatch("abc", "abc") → 2
+        // stringMatch("abc", "axc") → 0
+        System.out.println(lc.stringMatch("xxcaazz", "xxbaaz"));
     }
 }
