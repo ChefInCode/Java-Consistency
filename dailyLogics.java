@@ -224,5 +224,12 @@ public class dailyLogics {
         // stringMatch("abc", "abc") → 2
         // stringMatch("abc", "axc") → 0
         System.out.println(lc.stringMatch("xxcaazz", "xxbaaz"));
+
+
+        // Given a string, return a version where all the "x" have been removed. Except an "x" at the very start or end should not be removed.
+        // stringX("xxHxix") → "xHix"
+        // stringX("abxxxcd") → "abcd"
+        // stringX("xabxxxcdx") → "xabcdx"
+        System.out.println(lc.stringX("xxHxix"));
     }
 }

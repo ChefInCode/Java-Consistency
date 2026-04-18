@@ -297,4 +297,23 @@ public class logicsClass implements logicsInterface {
         return count;
     }
 
+    @Override
+    public String stringX(String str) {
+        if (str.length() < 2)
+            return str;
+        boolean s = str.substring(0, 1).equals("x");
+        boolean b = str.substring(str.length() - 1).equals("x");
+        String finalstr = "";
+
+        finalstr = str.substring(0, str.length()).replace("x", "");
+
+        if (s) {
+            finalstr = "x" + finalstr;
+        }
+        if (b) {
+            finalstr = finalstr + "x";
+        }
+        return finalstr;
+    }
+
 }
