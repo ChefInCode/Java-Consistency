@@ -333,4 +333,9 @@ public class logicsClass implements logicsInterface {
         return finalstr;
     }
 
+    @Override
+    public String stringYak(String str) {
+        return str.replaceAll("yak", "");
+    }
+
 }

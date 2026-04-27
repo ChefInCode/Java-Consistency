@@ -37,4 +37,5 @@ public interface logicsInterface {
     public int stringMatch(String a, String b) ;
     public String stringX(String str);
     public String altPairs(String str) ;
+    public String stringYak(String str);
 }
