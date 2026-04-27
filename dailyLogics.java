@@ -258,5 +258,12 @@ public class dailyLogics {
         // noTriples([1, 1, 2, 2, 2, 1]) → false
         // noTriples([1, 1, 1, 2, 2, 2, 1]) → false
         System.out.println(lc.noTriples(new int[]{1, 1, 2, 2, 1}));
+
+
+        //Given an array of ints, return true if it contains a 2, 7, 1 pattern: a value, followed by the value plus 5, followed by the value minus 1. Additionally the 271 counts even if the "1" differs by 2 or less from the correct value.
+        // has271([1, 2, 7, 1]) → true
+        // has271([1, 2, 8, 1]) → false
+        // has271([2, 7, 1]) → true
+        System.out.println(lc.has271(new int[]{1, 2, 7, 1}));
     }
 }
