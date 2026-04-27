@@ -351,4 +351,16 @@ public class logicsClass implements logicsInterface {
         return count;
     }
 
+    @Override
+    public boolean noTriples(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            if ((nums.length > i + 2) && (nums[i] == nums[i + 1]) && (nums[i + 1] == nums[i + 2])) {
+                return false;
+            }
+
+        }
+        return true;
+
+    }
+
 }
