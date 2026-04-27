@@ -38,4 +38,5 @@ public interface logicsInterface {
     public String stringX(String str);
     public String altPairs(String str) ;
     public String stringYak(String str);
+    public int array667(int[] nums);    
 }
