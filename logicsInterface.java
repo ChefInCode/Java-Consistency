@@ -36,4 +36,5 @@ public interface logicsInterface {
       public boolean arrayFront9(int[] nums);
     public int stringMatch(String a, String b) ;
     public String stringX(String str);
+    public String altPairs(String str) ;
 }

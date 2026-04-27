@@ -231,5 +231,12 @@ public class dailyLogics {
         // stringX("abxxxcd") → "abcd"
         // stringX("xabxxxcdx") → "xabcdx"
         System.out.println(lc.stringX("xxHxix"));
+
+
+        // Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+        // altPairs("kitten") → "kien"
+        // altPairs("Chocolate") → "Chole"
+        // altPairs("CodingHorror") → "Congrr"
+        System.out.println(lc.altPairs("kitten"));
     }
 }

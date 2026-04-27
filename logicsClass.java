@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class logicsClass implements logicsInterface {
 
     @Override
@@ -312,6 +314,21 @@ public class logicsClass implements logicsInterface {
         }
         if (b) {
             finalstr = finalstr + "x";
+        }
+        return finalstr;
+    }
+
+    @Override
+    public String altPairs(String str) {
+        int i = 0;
+        String finalstr = "";
+        int[] arr = { 0, 1, 4, 5, 8, 9, 12, 13, 16, 17, 20, 21, 24, 25, 28, 29, 32, 33, 36, 37 };
+
+        while (i < str.length()) {
+            if (Arrays.binarySearch(arr, i) >= 0) {
+                finalstr += str.charAt(i);
+            }
+            i++;
         }
         return finalstr;
     }
