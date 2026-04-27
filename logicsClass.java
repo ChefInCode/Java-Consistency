@@ -376,4 +376,21 @@ public class logicsClass implements logicsInterface {
 
     }
 
+    @Override
+    public boolean array123(int[] nums) {
+        if (nums.length < 3)
+            return false;
+        int i = 0;
+        while (i < nums.length) {
+            if (nums.length > i + 2 && nums[i] == 1 && nums[i + 1] == 2 && nums[i + 2] == 3) {
+
+                return true;
+
+            }
+
+            i++;
+        }
+        return false;
+    }
+
 }
