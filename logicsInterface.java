@@ -41,5 +41,6 @@ public interface logicsInterface {
     public int array667(int[] nums);
     public boolean noTriples(int[] nums);
     public boolean has271(int[] nums);
-    public boolean array123(int[] nums);      
+    public boolean array123(int[] nums);
+    public String without2(String str);      
 }
