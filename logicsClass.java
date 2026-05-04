@@ -406,4 +406,27 @@ public class logicsClass implements logicsInterface {
         return str;
     }
 
+    @Override
+    public String deFront(String str) {
+        boolean hasA = false;
+        boolean hasB = false;
+        String resStr = "";
+        if (str.length() >= 1 && str.charAt(0) == 'a') {
+            hasA = true;
+        }
+        if (str.length() >= 2 && str.charAt(1) == 'b') {
+            hasB = true;
+        }
+        if (hasA) {
+            resStr += "a";
+        }
+        if (hasB) {
+            resStr += "b";
+        }
+        if (str.length() >= 3) {
+            resStr += str.substring(2);
+        }
+        return resStr;
+    }
+
 }
