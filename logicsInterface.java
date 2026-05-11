@@ -44,5 +44,6 @@ public interface logicsInterface {
     public boolean array123(int[] nums);
     public String without2(String str);
     public String deFront(String str);
-    public String startWord(String str, String word);      
+    public String startWord(String str, String word);
+    public String withoutX(String str);      
 }

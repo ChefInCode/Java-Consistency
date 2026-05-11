@@ -289,5 +289,12 @@ public class dailyLogics {
         // startWord("hippo", "xip") → "hip"
         // startWord("hippo", "i") → "h"
         System.out.println(lc.startWord("hippo", "hi"));
+
+
+        // Given a string, if the first or last chars are 'x', return the string without those 'x' chars, and otherwise return the string unchanged.
+        // withoutX("xHix") → "Hi"
+        // withoutX("xHi") → "Hi"
+        // withoutX("Hxix") → "Hxi"
+        System.out.println(lc.withoutX("xHix"));
     }
 }
