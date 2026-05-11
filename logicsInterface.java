@@ -45,5 +45,6 @@ public interface logicsInterface {
     public String without2(String str);
     public String deFront(String str);
     public String startWord(String str, String word);
-    public String withoutX(String str);      
+    public String withoutX(String str);
+    public String withoutX2(String str);      
 }
