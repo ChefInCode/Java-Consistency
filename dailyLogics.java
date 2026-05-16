@@ -302,5 +302,12 @@ public class dailyLogics {
         // withoutX2("Hxi") → "Hi"
         // withoutX2("Hi") → "Hi"
         System.out.println(lc.withoutX2("xHi"));
+
+
+        //Return true if the string "cat" and "dog" appear the same number of times in the given string.
+        // catDog("catdog") → true
+        // catDog("catcat") → false
+        // catDog("1cat1cadodog") → true
+        System.out.println(lc.catDog("catdog"));
     }
 }

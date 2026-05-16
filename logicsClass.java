@@ -460,19 +460,37 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public String withoutX2(String str) {
-  String result = "";
-  
-  for (int i = 0; i < str.length(); i++) {
-    if (i == 0 && str.charAt(i) == 'x') {
-      continue;
+        String result = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            if (i == 0 && str.charAt(i) == 'x') {
+                continue;
+            }
+            if (i == 1 && str.charAt(i) == 'x') {
+                continue;
+            }
+            result += str.charAt(i);
+        }
+
+        return result;
     }
-    if (i == 1 && str.charAt(i) == 'x') {
-      continue;
+
+    @Override
+    public boolean catDog(String str) {
+        int cat = 0, dog = 0;
+        for (int i = 0; i < str.length() - 2; i++) {
+            if (str.charAt(i) == 'c' && str.charAt(i + 1) == 'a' && str.charAt(i + 2) == 't') {
+                cat++;
+            }
+        }
+
+        for (int i = 0; i < str.length() - 2; i++) {
+            if (str.charAt(i) == 'd' && str.charAt(i + 1) == 'o' && str.charAt(i + 2) == 'g') {
+                dog++;
+            }
+        }
+
+        return (cat == dog) ? true : false;
     }
-    result += str.charAt(i);
-  }
-  
-  return result;
-}
 
 }
