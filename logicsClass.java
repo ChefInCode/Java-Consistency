@@ -493,4 +493,21 @@ public class logicsClass implements logicsInterface {
         return (cat == dog) ? true : false;
     }
 
+    @Override
+    public boolean xyzThere(String str) {
+        int count = 0;
+        for (int i = 0; i < str.length() - 2; i++) {
+            if (str.charAt(i) == 'x' && str.charAt(i + 1) == 'y' && str.charAt(i + 2) == 'z')
+
+            {
+                if (i == 0 || (str.charAt(i - 1) != '.')) {
+                    count++;
+
+                }
+            }
+        }
+
+        return (count > 0) ? true : false;
+    }
+
 }
