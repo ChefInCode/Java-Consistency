@@ -316,5 +316,12 @@ public class dailyLogics {
         // xyzThere("abc.xyz") → false
         // xyzThere("xyz.abc") → true
         System.out.println(lc.xyzThere("abcxyz"));
+
+
+        // Return true if the given string contains a "bob" string, but where the middle 'o' char can be any char.
+        // bobThere("abcbob") → true
+        // bobThere("b9b") → true
+        // bobThere("bac") → false
+        System.out.println(lc.bobThere("abcbob"));
     }
 }

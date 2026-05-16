@@ -48,5 +48,6 @@ public interface logicsInterface {
     public String withoutX(String str);
     public String withoutX2(String str);
     public boolean catDog(String str);  
-    public boolean xyzThere(String str);    
+    public boolean xyzThere(String str);
+    public boolean bobThere(String str);    
 }
