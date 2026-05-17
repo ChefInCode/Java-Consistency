@@ -520,4 +520,27 @@ public class logicsClass implements logicsInterface {
         return false;
     }
 
+    @Override
+    public boolean endOther(String a, String b) {
+
+        String small;
+        String large;
+
+        String ca = a.toLowerCase();
+        String cb = b.toLowerCase();
+        if (ca.length() > cb.length()) {
+            small = cb;
+            large = ca;
+        } else {
+            small = ca;
+            large = cb;
+        }
+
+        if ((small.equals(large.substring(large.length() - small.length(), large.length())))) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

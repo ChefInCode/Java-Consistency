@@ -50,4 +50,5 @@ public interface logicsInterface {
     public boolean catDog(String str);  
     public boolean xyzThere(String str);
     public boolean bobThere(String str);    
+    public boolean endOther(String a, String b);
 }
