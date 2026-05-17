@@ -51,4 +51,5 @@ public interface logicsInterface {
     public boolean xyzThere(String str);
     public boolean bobThere(String str);    
     public boolean endOther(String a, String b);
+    public boolean xyBalance(String str);
 }
