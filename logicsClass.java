@@ -551,4 +551,31 @@ public class logicsClass implements logicsInterface {
         return lastX <= lastY;
     }
 
+    @Override
+    public String mixString(String a, String b) {
+        String minStr = "";
+        String maxStr = "";
+        if (a.length() == 0) {
+            return b;
+        } else if (b.length() == 0) {
+            return a;
+        }
+        if (a.length() < b.length()) {
+            minStr = a;
+            maxStr = b;
+        } else {
+            minStr = b;
+            maxStr = a;
+        }
+        String res = "";
+        int j = 0;
+
+        for (int i = 0; i < minStr.length(); i++) {
+            res += "" + a.charAt(i) + b.charAt(i);
+            j = i;
+        }
+
+        return res + maxStr.substring(j + 1);
+    }
+
 }
