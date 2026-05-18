@@ -578,4 +578,16 @@ public class logicsClass implements logicsInterface {
         return res + maxStr.substring(j + 1);
     }
 
+    @Override
+    public String repeatEnd(String str, int n) {
+
+        String cutStr = str.substring(str.length() - n);
+        String resStr = "";
+        for (int i = 0; i < n; i++) {
+            resStr += cutStr;
+        }
+
+        return resStr;
+    }
+
 }
