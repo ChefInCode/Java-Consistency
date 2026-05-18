@@ -599,4 +599,19 @@ public class logicsClass implements logicsInterface {
         return finalStr;
     }
 
+    @Override
+    public String repeatSeparator(String word, String sep, int count) {
+        if (count == 1)
+            return word;
+        if (count == 0)
+            return "";
+        String finalStr = "";
+        for (int i = 1; i <= count; i++) {
+            finalStr += word;
+            if (i != count)
+                finalStr += sep;
+        }
+        return finalStr;
+    }
+
 }

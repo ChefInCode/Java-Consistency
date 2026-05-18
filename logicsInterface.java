@@ -55,4 +55,5 @@ public interface logicsInterface {
     public String mixString(String a, String b);
       public String repeatEnd(String str, int n);  
       public String repeatFront(String str, int n) ; 
+      public String repeatSeparator(String word, String sep, int count);
 }
