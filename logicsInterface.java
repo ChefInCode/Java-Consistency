@@ -53,5 +53,6 @@ public interface logicsInterface {
     public boolean endOther(String a, String b);
     public boolean xyBalance(String str);
     public String mixString(String a, String b);
-      public String repeatEnd(String str, int n);   
+      public String repeatEnd(String str, int n);  
+      public String repeatFront(String str, int n) ; 
 }
