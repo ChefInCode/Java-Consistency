@@ -614,4 +614,10 @@ public class logicsClass implements logicsInterface {
         return finalStr;
     }
 
+    @Override
+    public boolean prefixAgain(String str, int n) {
+        String preString = str.substring(0, n);
+        return str.substring(n).contains(preString);
+    }
+
 }
