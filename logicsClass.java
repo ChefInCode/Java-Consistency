@@ -631,4 +631,15 @@ public class logicsClass implements logicsInterface {
             return str.substring(mid - 1, mid + 2).equals("xyz");
         }
     }
+
+    @Override
+    public String getSandwich(String str) {
+        int fi = str.indexOf("bread");
+        int li = str.lastIndexOf("bread");
+        if (fi == -1 || li == -1 || fi == li) {
+            return "";
+        }
+        return str.substring(fi + 5, li);
+    }
+
 }
