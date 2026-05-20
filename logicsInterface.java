@@ -57,4 +57,5 @@ public interface logicsInterface {
       public String repeatFront(String str, int n) ; 
       public String repeatSeparator(String word, String sep, int count);
       public boolean prefixAgain(String str, int n);
+      public boolean xyzMiddle(String str)  ;
 }
