@@ -59,4 +59,5 @@ public interface logicsInterface {
       public boolean prefixAgain(String str, int n);
       public boolean xyzMiddle(String str)  ;
       public String getSandwich(String str);
+      public boolean sameStarChar(String str);
 }
