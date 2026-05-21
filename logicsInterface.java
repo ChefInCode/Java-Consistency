@@ -60,4 +60,5 @@ public interface logicsInterface {
       public boolean xyzMiddle(String str)  ;
       public String getSandwich(String str);
       public boolean sameStarChar(String str);
+      public String oneTwo(String str);
 }
