@@ -62,4 +62,5 @@ public interface logicsInterface {
       public boolean sameStarChar(String str);
       public String oneTwo(String str);
       public String zipZap(String str); 
+      public String starOut(String str);
 }

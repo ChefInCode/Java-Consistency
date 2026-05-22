@@ -669,4 +669,9 @@ public class logicsClass implements logicsInterface {
         return str.replaceAll("z.p", "zp");
     }
 
+    @Override
+    public String starOut(String str) {
+        return str.replaceAll("[^*]?\\*+[^*]?", "");
+    }
+
 }
