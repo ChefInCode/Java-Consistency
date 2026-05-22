@@ -663,4 +663,10 @@ public class logicsClass implements logicsInterface {
         }
         return resStr;
     }
+
+    @Override
+    public String zipZap(String str) {
+        return str.replaceAll("z.p", "zp");
+    }
+
 }

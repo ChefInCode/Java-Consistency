@@ -61,4 +61,5 @@ public interface logicsInterface {
       public String getSandwich(String str);
       public boolean sameStarChar(String str);
       public String oneTwo(String str);
+      public String zipZap(String str); 
 }
