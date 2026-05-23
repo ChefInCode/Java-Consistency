@@ -674,4 +674,13 @@ public class logicsClass implements logicsInterface {
         return str.replaceAll("[^*]?\\*+[^*]?", "");
     }
 
+    @Override
+    public String plusOut(String str, String word) {
+        String temp = str.replace(word, "@@@");
+
+        String replaced = temp.replaceAll("[^@]", "+");
+
+        return replaced.replace("@@@", word);
+    }
+
 }
