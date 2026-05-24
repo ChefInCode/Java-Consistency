@@ -683,4 +683,27 @@ public class logicsClass implements logicsInterface {
         return replaced.replace("@@@", word);
     }
 
+    @Override
+    public String wordEnds(String str, String word) {
+        String result = "";
+        int sLen = str.length();
+        int wLen = word.length();
+
+        for (int i = 0; i <= sLen - wLen; i++) {
+
+            if (str.substring(i, i + wLen).equals(word)) {
+
+                if (i > 0) {
+                    result += str.charAt(i - 1);
+                }
+
+                if (i + wLen < sLen) {
+                    result += str.charAt(i + wLen);
+                }
+            }
+        }
+
+        return result;
+    }
+
 }

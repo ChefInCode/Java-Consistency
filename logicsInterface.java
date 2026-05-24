@@ -64,4 +64,5 @@ public interface logicsInterface {
       public String zipZap(String str); 
       public String starOut(String str);
       public String plusOut(String str, String word) ;
+      public String wordEnds(String str, String word) ;
 }
