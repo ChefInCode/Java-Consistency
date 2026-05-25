@@ -66,4 +66,5 @@ public interface logicsInterface {
       public String plusOut(String str, String word) ;
       public String wordEnds(String str, String word) ;
       public boolean firstLast6(int[] nums);
+      public boolean sameFirstLast(int[] nums);
 }

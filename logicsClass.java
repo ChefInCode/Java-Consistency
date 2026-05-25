@@ -711,4 +711,10 @@ public class logicsClass implements logicsInterface {
         return (nums[0] == 6 || nums[nums.length - 1] == 6) ? true : false;
     }
 
+    @Override
+    public boolean sameFirstLast(int[] nums) {
+        return nums.length > 0 && nums[0] == nums[nums.length - 1];
+
+    }
+
 }
