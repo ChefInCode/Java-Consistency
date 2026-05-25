@@ -67,4 +67,5 @@ public interface logicsInterface {
       public String wordEnds(String str, String word) ;
       public boolean firstLast6(int[] nums);
       public boolean sameFirstLast(int[] nums);
+      public int[] makePi();
 }

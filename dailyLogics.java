@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class dailyLogics {
     public static void main(String[] args) {
         logicsClass lc = new logicsClass();
@@ -425,5 +427,9 @@ public class dailyLogics {
         // sameFirstLast([1, 2, 3, 1]) → true
         // sameFirstLast([1, 2, 1]) → true
         System.out.println(lc.sameFirstLast(new int[]{1, 2, 3}));
+
+        // Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
+        // makePi() → [3, 1, 4]
+        System.out.println(Arrays.toString(lc.makePi()));
     }
 }
