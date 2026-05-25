@@ -413,5 +413,11 @@ public class dailyLogics {
         // wordEnds("XY123XY", "XY") → "13"
         // wordEnds("XY1XY", "XY") → "11"
         System.out.println(lc.wordEnds("abcXY123XYijk", "XY"));
+
+        //Given an array of ints, return true if 6 appears as either the first or last element in the array. The array will be length 1 or more.
+        // firstLast6([1, 2, 6]) → true
+        // firstLast6([6, 1, 2, 3]) → true
+        // firstLast6([13, 6, 1, 2, 3]) → false
+        System.out.println(lc.firstLast6(new int[]{1, 2, 6}));
     }
 }
