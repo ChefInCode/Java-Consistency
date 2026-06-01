@@ -727,4 +727,12 @@ public class logicsClass implements logicsInterface {
         return (a[0] == b[0]) || (a[a.length - 1] == b[b.length - 1]) ? true : false;
     }
 
+    @Override
+    public int sum3(int[] nums) {
+        int sum = 0;
+        for (int a : nums) {
+            sum += a;
+        }
+        return sum;
+    }
 }

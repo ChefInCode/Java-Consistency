@@ -69,4 +69,5 @@ public interface logicsInterface {
       public boolean sameFirstLast(int[] nums);
       public int[] makePi();
       public boolean commonEnd(int[] a, int[] b);
+      public int sum3(int[] nums);
 }
