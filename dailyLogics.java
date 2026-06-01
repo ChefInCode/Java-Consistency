@@ -431,5 +431,11 @@ public class dailyLogics {
         // Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
         // makePi() → [3, 1, 4]
         System.out.println(Arrays.toString(lc.makePi()));
+
+        // Given 2 arrays of ints, a and b, return true if they have the same first element or they have the same last element. Both arrays will be length 1 or more.
+        // commonEnd([1, 2, 3], [7, 3]) → true
+        // commonEnd([1, 2, 3], [7, 3, 2]) → false
+        // commonEnd([1, 2, 3], [1, 3]) → true
+        System.out.println(lc.commonEnd(new int[]{1, 2, 3}, new int[]{7, 3}));
     }
 }

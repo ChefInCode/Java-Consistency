@@ -68,4 +68,5 @@ public interface logicsInterface {
       public boolean firstLast6(int[] nums);
       public boolean sameFirstLast(int[] nums);
       public int[] makePi();
+      public boolean commonEnd(int[] a, int[] b);
 }
