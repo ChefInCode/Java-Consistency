@@ -71,4 +71,5 @@ public interface logicsInterface {
       public boolean commonEnd(int[] a, int[] b);
       public int sum3(int[] nums);
        public int[] rotateLeft3(int[] nums);
+       public int[] reverse3(int[] nums);
 }
