@@ -747,4 +747,11 @@ public class logicsClass implements logicsInterface {
         return new int[] { nums[2], nums[1], nums[0] };
     }
 
+    @Override
+    public int[] maxEnd3(int[] nums) {
+        int max = (nums[0] > nums[2]) ? nums[0] : nums[2];
+        return new int[] { max, max, max };
+
+    }
+
 }
