@@ -73,4 +73,5 @@ public interface logicsInterface {
        public int[] rotateLeft3(int[] nums);
        public int[] reverse3(int[] nums);
        public int[] maxEnd3(int[] nums);
+       public int[] middleWay(int[] a, int[] b) ;
 }
