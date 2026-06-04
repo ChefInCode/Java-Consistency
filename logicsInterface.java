@@ -75,4 +75,5 @@ public interface logicsInterface {
        public int[] maxEnd3(int[] nums);
        public int[] middleWay(int[] a, int[] b) ;
        public int[] makeEnds(int[] nums) ;
+        public boolean has23(int[] nums);
 }
