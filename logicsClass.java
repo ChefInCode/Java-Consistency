@@ -759,4 +759,8 @@ public class logicsClass implements logicsInterface {
         return new int[] { a[1], b[1] };
     }
 
+    @Override
+    public int[] makeEnds(int[] nums) {
+        return new int[] { nums[0], nums[nums.length - 1] };
+    }
 }
