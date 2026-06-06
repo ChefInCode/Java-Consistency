@@ -76,4 +76,5 @@ public interface logicsInterface {
        public int[] middleWay(int[] a, int[] b) ;
        public int[] makeEnds(int[] nums) ;
         public boolean has23(int[] nums);
+        public boolean no23(int[] nums);
 }
