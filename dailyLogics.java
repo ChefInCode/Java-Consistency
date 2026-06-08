@@ -486,5 +486,11 @@ public class dailyLogics {
         // no23([4, 2]) → false
         // no23([3, 5]) → false
         System.out.println(lc.no23(new int[]{4, 5}));
+
+        //Given an int array, return true if the array contains 2 twice, or 3 twice. The array will be length 0, 1, or 2.
+        // double23([2, 2]) → true
+        // double23([3, 3]) → true
+        // double23([2, 3]) → false
+        System.out.println(lc.double23(new int[]{2, 2}));
     }
 }

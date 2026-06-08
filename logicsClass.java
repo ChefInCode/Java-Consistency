@@ -774,4 +774,9 @@ public class logicsClass implements logicsInterface {
         return !(nums[0] == 2 || nums[0] == 3 || nums[1] == 2 || nums[1] == 3);
     }
 
+    @Override
+    public boolean double23(int[] nums) {
+        return nums.length > 1 && ((nums[0] == 2 && nums[1] == 2) || (nums[0] == 3 && nums[1] == 3));
+    }
+
 }
