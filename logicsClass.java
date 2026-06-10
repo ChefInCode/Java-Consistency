@@ -779,4 +779,13 @@ public class logicsClass implements logicsInterface {
         return nums.length > 1 && ((nums[0] == 2 && nums[1] == 2) || (nums[0] == 3 && nums[1] == 3));
     }
 
+    @Override
+    public int[] fix23(int[] nums) {
+        for(int i=0;i<nums.length;i++) {
+            if(nums[i]==2 && i+1<nums.length &&nums[i+1]==3){
+                nums[i+1] = 0;
+            }
+        }
+        return nums;
+    }
 }

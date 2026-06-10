@@ -78,4 +78,5 @@ public interface logicsInterface {
         public boolean has23(int[] nums);
         public boolean no23(int[] nums);
       public boolean double23(int[] nums);
+      public int[] fix23(int[] nums);
 }
