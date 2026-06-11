@@ -781,11 +781,22 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public int[] fix23(int[] nums) {
-        for(int i=0;i<nums.length;i++) {
-            if(nums[i]==2 && i+1<nums.length &&nums[i+1]==3){
-                nums[i+1] = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 2 && i + 1 < nums.length && nums[i + 1] == 3) {
+                nums[i + 1] = 0;
             }
         }
         return nums;
     }
+
+    @Override
+    public int start1(int[] a, int[] b) {
+        int count = 0;
+        if (a.length > 0 && a[0] == 1)
+            count++;
+        if (b.length > 0 && b[0] == 1)
+            count++;
+        return count;
+    }
+
 }
