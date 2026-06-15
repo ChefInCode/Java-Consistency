@@ -799,4 +799,14 @@ public class logicsClass implements logicsInterface {
         return count;
     }
 
+    @Override
+    public int[] biggerTwo(int[] a, int[] b) {
+        int suma = 0, sumb = 0;
+        for (int i = 0; i < a.length; i++) {
+            suma += a[i];
+            sumb += b[i];
+        }
+        return suma >= sumb ? a : b;
+    }
+
 }

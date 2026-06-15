@@ -80,4 +80,5 @@ public interface logicsInterface {
       public boolean double23(int[] nums);
       public int[] fix23(int[] nums);
       public int start1(int[] a, int[] b) ;
+      public int[] biggerTwo(int[] a, int[] b);
 }
