@@ -809,4 +809,10 @@ public class logicsClass implements logicsInterface {
         return suma >= sumb ? a : b;
     }
 
+    @Override
+    public int[] makeMiddle(int[] nums) {
+        int mid = (nums.length > 2) ? (nums.length / 2) - 1 : 0;
+        return new int[] { nums[mid], nums[mid + 1] };
+    }
+
 }

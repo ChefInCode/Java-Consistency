@@ -510,5 +510,11 @@ public class dailyLogics {
         // biggerTwo([3, 4], [1, 2]) → [3, 4]
         // biggerTwo([1, 1], [1, 2]) → [1, 2]
         System.out.println(Arrays.toString(lc.biggerTwo(new int[]{1, 2}, new int[]{3, 4})));
+
+        // Given an array of ints of even length, return a new array length 2 containing the middle two elements from the original array. The original array will be length 2 or more.
+        // makeMiddle([1, 2, 3, 4]) → [2, 3]
+        // makeMiddle([7, 1, 2, 3, 4, 9]) → [2, 3]
+        // makeMiddle([1, 2]) → [1, 2]
+        System.out.println(Arrays.toString(lc.makeMiddle(new int[]{1, 2, 3, 4})));
     }
 }

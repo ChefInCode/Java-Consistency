@@ -81,4 +81,5 @@ public interface logicsInterface {
       public int[] fix23(int[] nums);
       public int start1(int[] a, int[] b) ;
       public int[] biggerTwo(int[] a, int[] b);
+      public int[] makeMiddle(int[] nums) ;
 }
