@@ -82,4 +82,5 @@ public interface logicsInterface {
       public int start1(int[] a, int[] b) ;
       public int[] biggerTwo(int[] a, int[] b);
       public int[] makeMiddle(int[] nums) ;
+      public int[] plusTwo(int[] a, int[] b)  ;
 }
