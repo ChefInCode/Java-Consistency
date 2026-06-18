@@ -820,4 +820,20 @@ public class logicsClass implements logicsInterface {
         return new int[] { a[0], a[1], b[0], b[1] };
     }
 
+    @Override
+    public int[] swapEnds(int[] nums) {
+        int res[] = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            if (i == 0) {
+                res[i] = nums[nums.length - 1];
+            } else if (i == nums.length - 1) {
+                res[i] = nums[0];
+            } else {
+                res[i] = nums[i];
+            }
+
+        }
+        return res;
+    }
+
 }
