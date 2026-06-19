@@ -84,4 +84,5 @@ public interface logicsInterface {
       public int[] makeMiddle(int[] nums) ;
       public int[] plusTwo(int[] a, int[] b)  ;
       public int[] swapEnds(int[] nums);
+      public int[] midThree(int[] nums);
 }

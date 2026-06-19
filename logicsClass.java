@@ -836,4 +836,11 @@ public class logicsClass implements logicsInterface {
         return res;
     }
 
+    @Override
+    public int[] midThree(int[] nums) {
+
+        int mid = nums.length / 2; // Find the middle index
+        return new int[] { nums[mid - 1], nums[mid], nums[mid + 1] }; // Extract the middle three elements
+    }
+
 }
