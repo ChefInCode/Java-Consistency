@@ -534,5 +534,17 @@ public class dailyLogics {
         // midThree([8, 6, 7, 5, 3, 0, 9]) → [7, 5, 3]
         // midThree([1, 2, 3]) → [1, 2, 3]
         System.out.println(Arrays.toString(lc.midThree(new int[]{1, 2, 3, 4, 5})));
+
+        //Given an array of ints of odd length, look at the first, last, and middle values in the array and return the largest. The array length will be a least 1.
+        // maxTriple([1, 2, 3]) → 3
+        // maxTriple([1, 5, 3]) → 5
+        // maxTriple([5, 2, 3]) → 5
+        System.out.println(lc.maxTriple(new int[]{1, 2, 3}));
+
+        // Given an int array of any length, return a new array of its first 2 elements. If the array is smaller than length 2, use whatever elements are present.
+        // frontPiece([1, 2, 3]) → [1, 2]
+        // frontPiece([1, 2]) → [1, 2]
+        // frontPiece([1]) → [1]
+        System.out.println(Arrays.toString(lc.frontPiece(new int[]{1, 2, 3})));
     }
 }

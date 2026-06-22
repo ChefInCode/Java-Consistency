@@ -85,4 +85,6 @@ public interface logicsInterface {
       public int[] plusTwo(int[] a, int[] b)  ;
       public int[] swapEnds(int[] nums);
       public int[] midThree(int[] nums);
+       public int maxTriple(int[] nums) ;
+       public int[] frontPiece(int[] nums);
 }

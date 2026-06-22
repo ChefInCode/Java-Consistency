@@ -843,4 +843,24 @@ public class logicsClass implements logicsInterface {
         return new int[] { nums[mid - 1], nums[mid], nums[mid + 1] }; // Extract the middle three elements
     }
 
+    @Override
+    public int maxTriple(int[] nums) {
+        int maxi = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (((i == 0) || (i == nums.length / 2) || (i == nums.length - 1)) && nums[i] > maxi) {
+                maxi = nums[i];
+            }
+        }
+        return maxi;
+    }
+
+    @Override
+    public int[] frontPiece(int[] nums) {
+        if (nums.length <= 2) {
+            return nums;
+        } else {
+            return new int[] { nums[0], nums[1] };
+        }
+    }
+
 }
