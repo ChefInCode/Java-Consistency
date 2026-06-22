@@ -87,4 +87,5 @@ public interface logicsInterface {
       public int[] midThree(int[] nums);
        public int maxTriple(int[] nums) ;
        public int[] frontPiece(int[] nums);
+       public boolean unlucky1(int[] nums);
 }
