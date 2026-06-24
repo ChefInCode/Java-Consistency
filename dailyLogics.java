@@ -558,5 +558,11 @@ public class dailyLogics {
         // make2([4], [1, 2, 3]) → [4, 1]
         // make2([], [1, 2]) → [1, 2]
         System.out.println(Arrays.toString(lc.make2(new int[]{4, 5}, new int[]{1, 2, 3})));
+
+        //Given 2 int arrays, a and b, of any length, return a new array with the first element of each array. If either array is length 0, ignore that array.
+        // front11([1, 2, 3], [7, 9, 8]) → [1, 7]
+        // front11([1], [2]) → [1, 2]
+        // front11([1, 7], []) → [1]
+        System.out.println(Arrays.toString(lc.front11(new int[]{1, 2, 3}, new int[]{7, 9, 8})));
     }
 }
