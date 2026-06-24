@@ -878,4 +878,24 @@ public class logicsClass implements logicsInterface {
         return false;
     }
 
+    @Override
+    public int[] make2(int[] a, int[] b) {
+        int[] result = new int[2];
+        int index = 0;
+
+        for (int i : a) {
+            if (index < 2) {
+                result[index++] = i;
+            }
+        }
+        for (int i : b) {
+            if (index < 2) {
+                result[index++] = i;
+            }
+        }
+
+        return result;
+
+    }
+
 }
