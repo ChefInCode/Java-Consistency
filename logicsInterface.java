@@ -91,4 +91,5 @@ public interface logicsInterface {
        public int[] make2(int[] a, int[] b);
        public int[] front11(int[] a, int[] b);
        public int countEvens(int[] nums);
+       public int bigDiff(int[] nums);
 }
