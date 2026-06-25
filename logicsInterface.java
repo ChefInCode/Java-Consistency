@@ -90,4 +90,5 @@ public interface logicsInterface {
        public boolean unlucky1(int[] nums);
        public int[] make2(int[] a, int[] b);
        public int[] front11(int[] a, int[] b);
+       public int countEvens(int[] nums);
 }

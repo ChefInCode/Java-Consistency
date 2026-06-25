@@ -564,5 +564,11 @@ public class dailyLogics {
         // front11([1], [2]) → [1, 2]
         // front11([1, 7], []) → [1]
         System.out.println(Arrays.toString(lc.front11(new int[]{1, 2, 3}, new int[]{7, 9, 8})));
+
+        //Return the number of even ints in the given array. Note: the % "mod" operator computes the remainder, e.g. 5 % 2 is 1.
+        // countEvens([2, 1, 2, 3, 4]) → 3
+        // countEvens([2, 2, 0]) → 3
+        // countEvens([1, 3, 5]) → 0
+        System.out.println(lc.countEvens(new int[]{2, 1, 2, 3, 4}));
     }
 }
