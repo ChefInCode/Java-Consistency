@@ -961,4 +961,21 @@ public class logicsClass implements logicsInterface {
         return sum;
 
     }
+
+    @Override
+    public int sum67(int[] nums) {
+        int sum = 0;
+        if (nums.length < 1)
+            return 0;
+        boolean found = false;
+        for (int i = 0; i < nums.length; i++) {
+            if ((nums[i] == 6 && !found) || (nums[i] == 7 && found)) {
+                found = !found;
+            } else if (!found) {
+                sum += nums[i];
+            }
+
+        }
+        return sum;
+    }
 }
