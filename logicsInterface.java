@@ -93,4 +93,5 @@ public interface logicsInterface {
        public int countEvens(int[] nums);
        public int bigDiff(int[] nums);
        public int centeredAverage(int[] nums) ;
+       public int sum13(int[] nums) ; 
 }

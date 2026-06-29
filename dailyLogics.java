@@ -581,8 +581,13 @@ public class dailyLogics {
         // centeredAverage([1, 2, 3, 4, 100]) → 3
         // centeredAverage([1, 1, 5, 5, 10, 8, 7]) → 5
         // centeredAverage([-10, -4, -2, -4, -2, 0]) → -3
-        System.out.println(lc.centeredAverage(new int[]{1, 2, 3, 4, 100}));
-        System.out.println(lc.centeredAverage(new int[]{1, 1, 5, 5, 10, 8, 7}));
         System.out.println(lc.centeredAverage(new int[]{-10, -4, -2, -4, -2, 0}));
+
+        //Return the sum of the numbers in the array, returning 0 for an empty array. Except the number 13 is very unlucky, so it does not count and numbers that come immediately after a 13 also do not count.
+        // sum13([1, 2, 2, 1]) → 6
+        // sum13([1, 1]) → 2
+        // sum13([1, 2, 2, 1, 13]) → 6
+        System.out.println(lc.sum13(new int[]{1, 2, 2, 1, 13}));
+
     }
 }
