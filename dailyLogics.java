@@ -594,5 +594,11 @@ public class dailyLogics {
         // sum67([1, 2, 2, 6, 99, 99, 7]) → 5
         // sum67([1, 1, 6, 7, 2]) → 4
         System.out.println(lc.sum67(new int[]{1, 2, 2}));
+
+        //Given an array of ints, return true if the array contains a 2 next to a 2 somewhere.
+        // has22([1, 2, 2]) → true
+        // has22([1, 2, 1, 2]) → false
+        // has22([2, 1, 2]) → false
+        System.out.println(lc.has22(new int[]{1, 2, 2}));
     }
 }
