@@ -990,14 +990,23 @@ public class logicsClass implements logicsInterface {
     }
 
     @Override
-    public boolean lucky13(int[] nums){
-        for(int i=0;i<nums.length;i++)
-        {
-            if(nums[i]==1 || nums[i]==3)
-            {
+    public boolean lucky13(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1 || nums[i] == 3) {
                 return false;
             }
         }
         return true;
+    }
+
+    @Override
+    public boolean sum28(int[] nums) {
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 2)
+                sum += nums[i];
+        }
+
+        return sum == 8;
     }
 }

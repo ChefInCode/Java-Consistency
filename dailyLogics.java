@@ -605,5 +605,14 @@ public class dailyLogics {
         // lucky13([0, 2, 4]) → true
         // lucky13([1, 2, 3]) → false
         // lucky13([1, 2, 4]) → false
+        System.out.println(lc.lucky13(new int[]{0, 2, 4}));
+
+
+        //Given an array of ints, return true if the sum of all the 2's in the array is exactly 8.
+        // sum28([2, 3, 2, 2, 4, 2]) → true
+        // sum28([2, 3, 2, 2, 4, 2, 2]) → false
+        // sum28([1, 2, 3, 4]) → false
+        System.out.println(lc.sum28(new int[]{2, 3, 2, 2, 4, 2}));
+
     }
 }

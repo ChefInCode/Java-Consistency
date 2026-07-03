@@ -97,4 +97,5 @@ public interface logicsInterface {
        public int sum67(int[] nums);  
        public boolean has22(int[] nums);
        public boolean lucky13(int[] nums);
+       public boolean sum28(int[] nums);
 }
