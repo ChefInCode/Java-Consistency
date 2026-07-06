@@ -1009,4 +1009,16 @@ public class logicsClass implements logicsInterface {
 
         return sum == 8;
     }
+
+    @Override
+    public boolean more14(int[] nums) {
+        int c1 = 0, c4 = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 1)
+                c1++;
+            if (nums[i] == 4)
+                c4++;
+        }
+        return (c1 > c4);
+    }
 }

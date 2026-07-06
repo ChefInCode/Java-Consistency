@@ -614,5 +614,10 @@ public class dailyLogics {
         // sum28([1, 2, 3, 4]) → false
         System.out.println(lc.sum28(new int[]{2, 3, 2, 2, 4, 2}));
 
+        //Given an array of ints, return true if the number of 1's is greater than the number of 4's
+        // more14([1, 4, 1]) → true
+        // more14([1, 4, 1, 4]) → false
+        // more14([1, 1]) → true
+        System.out.println(lc.more14(new int[]{1, 4, 1}));
     }
 }
