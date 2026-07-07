@@ -1021,4 +1021,13 @@ public class logicsClass implements logicsInterface {
         }
         return (c1 > c4);
     }
+
+    @Override
+    public int[] fizzArray(int n) {
+        int [] result = new int[n];
+        for(int i=0; i<n; i++){
+            result[i]=i;
+        }
+        return result;
+    }
 }

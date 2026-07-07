@@ -99,4 +99,5 @@ public interface logicsInterface {
        public boolean lucky13(int[] nums);
        public boolean sum28(int[] nums);
        public boolean more14(int[] nums);
+       public int[] fizzArray(int n);
 }
