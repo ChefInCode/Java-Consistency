@@ -1024,10 +1024,22 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public int[] fizzArray(int n) {
-        int [] result = new int[n];
-        for(int i=0; i<n; i++){
-            result[i]=i;
+        int[] result = new int[n];
+        for (int i = 0; i < n; i++) {
+            result[i] = i;
         }
         return result;
+    }
+
+    @Override
+    public boolean only14(int[] nums) {
+        for (int i : nums) {
+            if ((i == 1) || (i == 4)) {
+            } else {
+                return false;
+            }
+
+        }
+        return true;
     }
 }

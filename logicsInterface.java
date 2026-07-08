@@ -100,4 +100,5 @@ public interface logicsInterface {
        public boolean sum28(int[] nums);
        public boolean more14(int[] nums);
        public int[] fizzArray(int n);
+        public boolean only14(int[] nums);
 }

@@ -625,5 +625,11 @@ public class dailyLogics {
         // fizzArray(1) → [0]
         // fizzArray(10) → [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
         System.out.println(Arrays.toString(lc.fizzArray(4)));
+
+        //Given an array of ints, return true if every element is a 1 or a 4.
+        // only14([1, 4, 1, 4]) → true
+        // only14([1, 4, 2, 4]) → false
+        // only14([1, 1]) → true
+        System.out.println(lc.only14(new int[]{1, 4, 1, 4}));
     }
 }
