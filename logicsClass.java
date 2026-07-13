@@ -1042,4 +1042,13 @@ public class logicsClass implements logicsInterface {
         }
         return true;
     }
+
+    @Override
+    public String[] fizzArray2(int n) {
+        String[] resStr = new String[n];
+        for (int i = 0; i < n; i++) {
+            resStr[i] = String.valueOf(i);
+        }
+        return resStr;
+    }
 }
