@@ -102,4 +102,5 @@ public interface logicsInterface {
        public int[] fizzArray(int n);
         public boolean only14(int[] nums);
         public String[] fizzArray2(int n);
+        public boolean no14(int[] nums) ;
 }

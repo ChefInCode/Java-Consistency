@@ -637,5 +637,11 @@ public class dailyLogics {
         // fizzArray2(10) → ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
         // fizzArray2(2) → ["0", "1"]
         System.out.println(Arrays.toString(lc.fizzArray2(4)));
+
+        //Given an array of ints, return true if it contains no 1's or it contains no 4's.
+        // no14([1, 2, 3]) → true
+        // no14([1, 2, 3, 4]) → false
+        // no14([2, 3, 4]) → true
+        System.out.println(lc.no14(new int[]{1, 2, 3}));
     }
 }

@@ -1051,4 +1051,16 @@ public class logicsClass implements logicsInterface {
         }
         return resStr;
     }
+
+    @Override
+    public boolean no14(int[] nums) {
+        boolean a = false, b = false;
+        for (int i : nums) {
+            if (i == 1)
+                a = true;
+            if (i == 4)
+                b = true;
+        }
+        return !a || !b;
+    }
 }
