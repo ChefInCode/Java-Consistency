@@ -643,5 +643,11 @@ public class dailyLogics {
         // no14([1, 2, 3, 4]) → false
         // no14([2, 3, 4]) → true
         System.out.println(lc.no14(new int[]{1, 2, 3}));
+
+        //We'll say that a value is "everywhere" in an array if for every pair of adjacent elements in the array, at least one of the pair is that value. Return true if the given value is everywhere in the array.
+        // isEverywhere([1, 2, 1, 3], 1) → true
+        // isEverywhere([1, 2, 1, 3], 2) → false
+        // isEverywhere([1, 2, 1, 3, 4], 1) → false
+        System.out.println(lc.isEverywhere(new int[]{1, 2, 1, 3}, 1));
     }
 }
