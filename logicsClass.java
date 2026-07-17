@@ -1073,4 +1073,19 @@ public class logicsClass implements logicsInterface {
         }
         return true;
     }
+
+    @Override
+    public boolean either24(int[] nums) {
+        boolean check2 = false;
+        boolean check4 = false;
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 2 && nums[i + 1] == 2) {
+                check2 = true;
+            }
+            if (nums[i] == 4 && nums[i + 1] == 4) {
+                check4 = true;
+            }
+        }
+        return (check2 && check4) ? false : check2 || check4;
+    }
 }

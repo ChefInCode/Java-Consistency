@@ -104,4 +104,5 @@ public interface logicsInterface {
         public String[] fizzArray2(int n);
         public boolean no14(int[] nums) ;
         public boolean isEverywhere(int[] nums, int val);
+        public boolean either24(int[] nums);
 }

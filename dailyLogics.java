@@ -649,5 +649,11 @@ public class dailyLogics {
         // isEverywhere([1, 2, 1, 3], 2) → false
         // isEverywhere([1, 2, 1, 3, 4], 1) → false
         System.out.println(lc.isEverywhere(new int[]{1, 2, 1, 3}, 1));
+
+        //Given an array of ints, return true if the array contains a 2 next to a 2 or a 4 next to a 4, but not both.
+        // either24([1, 2, 2]) → true
+        // either24([4, 4, 1]) → true
+        // either24([4, 4, 1, 2, 2]) → false
+        System.out.println(lc.either24(new int[]{1, 2, 2}));
     }
 }
