@@ -106,4 +106,5 @@ public interface logicsInterface {
         public boolean isEverywhere(int[] nums, int val);
         public boolean either24(int[] nums);
         public int matchUp(int[] nums1, int[] nums2);
+        public boolean has77(int[] nums);
 }

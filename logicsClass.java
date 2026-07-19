@@ -1091,14 +1091,23 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public int matchUp(int[] nums1, int[] nums2) {
-  int count=0;
-for(int i=0;i<nums1.length;i++)
-{
- if((nums1[i]-nums2[i])<=2 && (nums1[i]-nums2[i])>=-2 && (nums1[i]-nums2[i])!=0)
- {
-   count++;
- }
-}
-return count;
-}
+        int count = 0;
+        for (int i = 0; i < nums1.length; i++) {
+            if ((nums1[i] - nums2[i]) <= 2 && (nums1[i] - nums2[i]) >= -2 && (nums1[i] - nums2[i]) != 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    @Override
+    public boolean has77(int[] nums) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] == 7 && ((nums[i] == nums[i + 1]) || (i < nums.length - 2 && nums[i] == nums[i + 2]))) {
+                return true;
+            }
+
+        }
+        return false;
+    }
 }
