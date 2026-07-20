@@ -679,5 +679,10 @@ public class dailyLogics {
         // modThree([2, 1, 2, 5]) → false
         // modThree([2, 4, 2, 5]) → true
         System.out.println(lc.modThree(new int[]{2, 1, 3, 5}));
-    }
+
+        //Given an array of ints, return true if the value 3 appears in the array exactly 3 times, and no 3's are next to each other.
+        // haveThree([3, 1, 3, 1, 3]) → true
+        // haveThree([3, 1, 3, 3]) → false
+        // haveThree([3, 4, 3, 3, 4]) → false
+        System.out.println(lc.haveThree(new int[]{3, 1, 3, 1, 3}));
 }

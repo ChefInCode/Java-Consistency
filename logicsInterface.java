@@ -109,4 +109,5 @@ public interface logicsInterface {
         public boolean has77(int[] nums);
         public boolean has12(int[] nums);
         public boolean modThree(int[] nums);
+        public boolean haveThree(int[] nums);
 }
