@@ -107,4 +107,5 @@ public interface logicsInterface {
         public boolean either24(int[] nums);
         public int matchUp(int[] nums1, int[] nums2);
         public boolean has77(int[] nums);
+        public boolean has12(int[] nums);
 }
