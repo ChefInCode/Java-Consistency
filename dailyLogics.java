@@ -685,4 +685,11 @@ public class dailyLogics {
         // haveThree([3, 1, 3, 3]) → false
         // haveThree([3, 4, 3, 3, 4]) → false
         System.out.println(lc.haveThree(new int[]{3, 1, 3, 1, 3}));
+
+        //Given an array of ints, return true if every 2 that appears in the array is next to another 2.
+        //twoTwo([4, 2, 2, 3]) → true
+        //twoTwo([2, 2, 4]) → true
+        //twoTwo([2, 2, 4, 2]) → false
+        System.out.println(lc.twoTwo(new int[]{4, 2, 2, 3}));
+    }
 }

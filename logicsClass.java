@@ -1150,4 +1150,22 @@ public class logicsClass implements logicsInterface {
         }
         return (count == 3);
     }
+
+    @Override
+    public boolean twoTwo(int[] nums) {
+        boolean check = true;
+        if (nums.length < 2 && java.util.Arrays.stream(nums).anyMatch(x -> x == 2)) {
+            return false;
+        }
+        for (int i = 1; i < nums.length; i++) {
+            if (i >= 0 && i < nums.length && nums[i] == 2) {
+                if (nums[i - 1] == 2) {
+                    check = true;
+                } else {
+                    check = false;
+                }
+            }
+        }
+        return check;
+    }
 }
