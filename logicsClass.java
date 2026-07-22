@@ -1168,4 +1168,27 @@ public class logicsClass implements logicsInterface {
         }
         return check;
     }
+
+    @Override
+    public boolean sameEnds(int[] nums, int len) {
+        int[] fa = new int[len];
+        int[] ba = new int[len];
+        int fc = 0;
+        int bc = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (fc < len) {
+                fa[fc] = nums[i];
+                fc++;
+            }
+        }
+        int bal = ba.length - 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+
+            if (bc < len) {
+                ba[bal--] = nums[i];
+                bc++;
+            }
+        }
+        return Arrays.equals(fa, ba);
+    }
 }

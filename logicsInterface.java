@@ -111,4 +111,5 @@ public interface logicsInterface {
         public boolean modThree(int[] nums);
         public boolean haveThree(int[] nums);
         public boolean twoTwo(int[] nums);
+        public boolean sameEnds(int[] nums, int len);
 }
