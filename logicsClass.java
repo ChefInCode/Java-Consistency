@@ -1191,4 +1191,20 @@ public class logicsClass implements logicsInterface {
         }
         return Arrays.equals(fa, ba);
     }
+
+    @Override
+    public boolean tripleUp(int[] nums) {
+        int check = 0;
+        for (int i = 0; i < nums.length; i++) {
+            check = nums[i];
+            if ((i + 1) < nums.length && (i + 2) < nums.length && check + 1 == nums[i + 1]
+                    && check + 2 == nums[i + 2]) {
+                return true;
+            }
+
+        }
+        return false;
+
+    }
+
 }
