@@ -1215,4 +1215,17 @@ public class logicsClass implements logicsInterface {
         }
         return res;
     }
+
+    @Override
+    public int[] shiftLeft(int[] nums) {
+        int res[] = new int[nums.length];
+        int count = 0;
+        for (int i = 1; i < nums.length; i++) {
+            res[count++] = nums[i];
+        }
+        if (nums.length > 0)
+            res[count] = nums[0];
+        return res;
+    }
+
 }

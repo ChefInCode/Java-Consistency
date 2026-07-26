@@ -709,4 +709,11 @@ public class dailyLogics {
         // fizzArray3(11, 18) → [11, 12, 13, 14, 15, 16, 17]
         // fizzArray3(1, 3) → [1, 2]
         System.out.println(Arrays.toString(lc.fizzArray3(5, 10)));
+
+        //Return an array that is "left shifted" by one -- so {6, 2, 5, 3} returns {2, 5, 3, 6}. You may modify and return the given array, or return a new array.
+        // shiftLeft([6, 2, 5, 3]) → [2, 5, 3, 6]
+        // shiftLeft([1, 2]) → [2, 1]
+        // shiftLeft([1]) → [1]
+        System.out.println(Arrays.toString(lc.shiftLeft(new int[]{6, 2, 5, 3})));
+    }
 }

@@ -114,4 +114,5 @@ public interface logicsInterface {
         public boolean sameEnds(int[] nums, int len);
         public boolean tripleUp(int[] nums);
         public int[] fizzArray3(int start, int end);
+        public int[] shiftLeft(int[] nums); 
 }
