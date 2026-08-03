@@ -117,4 +117,5 @@ public interface logicsInterface {
         public int[] shiftLeft(int[] nums); 
         public int[] tenRun(int[] nums);
         public int[] pre4(int[] nums);
+        public int[] post4(int[] nums);
 }

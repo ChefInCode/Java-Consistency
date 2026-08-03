@@ -1265,4 +1265,31 @@ public class logicsClass implements logicsInterface {
         return Arrays.copyOf(res, validCount);
     }
 
+    @Override
+    public int[] post4(int[] nums) {
+        int res[] = new int[nums.length];
+        int j = 0;
+        int validCount = 0;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (nums[i] != 4) {
+                res[j] = nums[i];
+                validCount++;
+                j++;
+            } else {
+                break;
+            }
+        }
+        int left = 0;
+        int right = validCount - 1;
+        while (left < right) {
+            int temp = res[left];
+            res[left] = res[right];
+            res[right] = temp;
+            left++;
+            right--;
+        }
+
+        return Arrays.copyOf(res, validCount);
+    }
+
 }
