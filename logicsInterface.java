@@ -116,4 +116,5 @@ public interface logicsInterface {
         public int[] fizzArray3(int start, int end);
         public int[] shiftLeft(int[] nums); 
         public int[] tenRun(int[] nums);
+        public int[] pre4(int[] nums);
 }

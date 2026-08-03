@@ -722,5 +722,11 @@ public class dailyLogics {
         // tenRun([10, 1, 20, 2]) → [10, 10, 20, 20]
         // tenRun([10, 1, 9, 20]) → [10, 10, 10, 20]
         System.out.println(Arrays.toString(lc.tenRun(new int[]{2, 10, 3, 4, 20, 5})));
+
+        //Given a non-empty array of ints, return a new array containing the elements from the original array that come before the first 4 in the original array. The original array will contain at least one 4. Note that it is valid in java to create an array of length 0.
+        // pre4([1, 2, 4, 1]) → [1, 2]
+        // pre4([3, 1, 4]) → [3, 1]
+        // pre4([1, 4, 4]) → [1]
+        System.out.println(Arrays.toString(lc.pre4(new int[]{1, 2, 4, 1})));
     }
 }

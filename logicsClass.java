@@ -1250,4 +1250,19 @@ public class logicsClass implements logicsInterface {
         return res;
     }
 
+    @Override
+    public int[] pre4(int[] nums) {
+        int res[] = new int[nums.length];
+        int validCount = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 4) {
+                res[i] = nums[i];
+                validCount++;
+            } else {
+                break;
+            }
+        }
+        return Arrays.copyOf(res, validCount);
+    }
+
 }
