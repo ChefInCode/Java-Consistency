@@ -734,5 +734,12 @@ public class dailyLogics {
         // post4([4, 1, 4, 2]) → [2]
         // post4([4, 4, 1, 2, 3]) → [1, 2, 3]
         System.out.println(Arrays.toString(lc.post4(new int[]{2, 4, 1, 2})));
+
+        //We'll say that an element in an array is "alone" if there are values before and after it, and those values are different from it. Return a version of the given array where every instance of the given value which is alone is replaced by whichever value to its left or right is larger.
+        //notAlone([1, 2, 3], 2) → [1, 3, 3]
+        //notAlone([1, 2, 3, 2, 5, 2], 2) → [1, 3, 3, 5, 5, 2]
+        //notAlone([3, 4], 3) → [3, 4]
+        System.out.println(Arrays.toString(lc.notAlone(new int[]{1, 2, 3}, 2)));
+        
     }
 }

@@ -1292,4 +1292,24 @@ public class logicsClass implements logicsInterface {
         return Arrays.copyOf(res, validCount);
     }
 
+    @Override
+    public int[] notAlone(int[] nums, int val) {
+        if (nums.length <= 2)
+            return nums;
+        int res[] = new int[nums.length];
+        int max = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (i == 0 || i == nums.length - 1)
+                res[i] = nums[i];
+            if (i - 1 >= 0 && i + 1 < nums.length && nums[i] == val && nums[i - 1] != nums[i]) {
+                max = (nums[i - 1] < nums[i + 1]) ? nums[i + 1] : nums[i - 1];
+                res[i] = max;
+
+            } else {
+                res[i] = nums[i];
+            }
+        }
+        return res;
+    }
+
 }
