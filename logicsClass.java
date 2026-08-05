@@ -1312,4 +1312,19 @@ public class logicsClass implements logicsInterface {
         return res;
     }
 
+    @Override
+    public int[] zeroFront(int[] nums) {
+
+        int zeros = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0) {
+                int temp = nums[i];
+                nums[i] = nums[zeros];
+                nums[zeros] = temp;
+                zeros++;
+            }
+        }
+        return nums;
+    }
+
 }
