@@ -1327,4 +1327,18 @@ public class logicsClass implements logicsInterface {
         return nums;
     }
 
+    @Override
+    public int[] withoutTen(int[] nums) {
+        int c10 = 0;
+        int res[] = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 10) {
+                continue;
+            }
+            res[c10++] = nums[i];
+        }
+
+        return res;
+    }
+
 }

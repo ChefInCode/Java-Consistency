@@ -120,4 +120,5 @@ public interface logicsInterface {
         public int[] post4(int[] nums);
         public int[] notAlone(int[] nums, int val);
         public int[] zeroFront(int[] nums);
+        public int[] withoutTen(int[] nums);
 }
