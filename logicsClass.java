@@ -1341,4 +1341,27 @@ public class logicsClass implements logicsInterface {
         return res;
     }
 
+    @Override
+    public int[] zeroMax(int[] nums) {
+        int res[] = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 0 && i + 1 < nums.length) {
+                res[i] = maxOdd(nums, i);
+            } else {
+                res[i] = nums[i];
+            }
+        }
+        return res;
+    }
+
+    public int maxOdd(int[] nums, int from) {
+        int maxOdd = 0;
+        for (int i = from; i < nums.length; i++) {
+            if (nums[i] % 2 != 0 && nums[i] > maxOdd) {
+                maxOdd = nums[i];
+            }
+        }
+        return maxOdd;
+    }
+
 }

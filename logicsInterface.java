@@ -121,4 +121,5 @@ public interface logicsInterface {
         public int[] notAlone(int[] nums, int val);
         public int[] zeroFront(int[] nums);
         public int[] withoutTen(int[] nums);
+        public int[] zeroMax(int[] nums);
 }
