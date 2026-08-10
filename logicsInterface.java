@@ -122,4 +122,5 @@ public interface logicsInterface {
         public int[] zeroFront(int[] nums);
         public int[] withoutTen(int[] nums);
         public int[] zeroMax(int[] nums);
+        public int[] evenOdd(int[] nums);
 }
