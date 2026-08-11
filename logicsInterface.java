@@ -123,4 +123,5 @@ public interface logicsInterface {
         public int[] withoutTen(int[] nums);
         public int[] zeroMax(int[] nums);
         public int[] evenOdd(int[] nums);
+        public String[] fizzBuzz(int start, int end);
 }
