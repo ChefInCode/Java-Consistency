@@ -125,4 +125,5 @@ public interface logicsInterface {
         public int[] evenOdd(int[] nums);
         public String[] fizzBuzz(int start, int end);
         public int maxSpan(int[] nums);
+        public int[] fix34(int[] nums);
 }

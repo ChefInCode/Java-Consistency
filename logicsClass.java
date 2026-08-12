@@ -1412,4 +1412,22 @@ public class logicsClass implements logicsInterface {
         return maxSpan;
     }
 
+    @Override
+    public int[] fix34(int[] nums) {
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 3 && i + 1 <= nums.length - 1 && nums[i + 1] != 4) {
+                while (j < nums.length && (nums[j] != 4 || (j > 0 && nums[j - 1] == 3))) {
+                    j++;
+                }
+                int temp = nums[i + 1];
+                int a = nums[j];
+                nums[j] = temp;
+                nums[i + 1] = a;
+            }
+
+        }
+        return nums;
+    }
+
 }
