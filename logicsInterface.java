@@ -127,4 +127,5 @@ public interface logicsInterface {
         public int maxSpan(int[] nums);
         public int[] fix34(int[] nums);
         public int[] fix45(int[] nums);
+        public boolean canBalance(int[] nums);
 }

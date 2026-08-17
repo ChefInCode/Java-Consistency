@@ -789,5 +789,11 @@ public class dailyLogics {
         //fix45([1, 4, 1, 5]) → [1, 4, 5, 1]
         //fix45([1, 4, 1, 5, 5, 4, 1]) → [1, 4, 5, 1, 1, 4, 5]
         System.out.println(Arrays.toString(lc.fix45(new int[]{5, 4, 9, 4, 9, 5})));
+
+        //Given a non-empty array, return true if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
+        //canBalance([1, 1, 1, 2, 1]) → true
+        //canBalance([2, 1, 1, 2, 1]) → false
+        //canBalance([10, 10]) → true
+        System.out.println(lc.canBalance(new int[]{1, 1, 1, 2, 1}));
     }
 }

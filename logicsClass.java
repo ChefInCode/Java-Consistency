@@ -1434,7 +1434,7 @@ public class logicsClass implements logicsInterface {
     public int[] fix45(int[] nums) {
         int j = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 4 && i+1<=nums.length-1 && nums[i + 1] != 5) {
+            if (nums[i] == 4 && i + 1 <= nums.length - 1 && nums[i + 1] != 5) {
                 while (j < nums.length && !(nums[j] == 5 && (j == 0 || nums[j - 1] != 4))) {
                     j++;
                 }
@@ -1446,7 +1446,23 @@ public class logicsClass implements logicsInterface {
 
         }
         return nums;
-}
+    }
 
+    @Override
+    public boolean canBalance(int[] nums) {
+        int totalSum = 0;
+        for (int i : nums) {
+            totalSum += i;
+        }
+        int leftSum = 0, rightSum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            leftSum += nums[i];
+            rightSum = totalSum - leftSum;
+            if (leftSum == rightSum) {
+                return true;
+            }
+        }
+        return false;
+    }
 
 }
