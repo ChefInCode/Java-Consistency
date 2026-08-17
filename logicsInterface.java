@@ -128,4 +128,5 @@ public interface logicsInterface {
         public int[] fix34(int[] nums);
         public int[] fix45(int[] nums);
         public boolean canBalance(int[] nums);
+         public boolean linearIn(int[] outer, int[] inner);
 }

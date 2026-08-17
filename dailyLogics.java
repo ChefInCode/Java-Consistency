@@ -795,5 +795,11 @@ public class dailyLogics {
         //canBalance([2, 1, 1, 2, 1]) → false
         //canBalance([10, 10]) → true
         System.out.println(lc.canBalance(new int[]{1, 1, 1, 2, 1}));
+
+        //Given two arrays of ints sorted in increasing order, outer and inner, return true if all of the numbers in inner appear in outer. The best solution makes only a single "linear" pass of both arrays, taking advantage of the fact that both arrays are already in sorted order.
+        //linearIn([1, 2, 4, 6], [2, 4]) → true
+        //linearIn([1, 2, 4, 6], [2, 3, 4]) → false
+        //linearIn([1, 2, 4, 4, 6], [2, 4]) → true
+        System.out.println(lc.linearIn(new int[]{1, 2, 4, 6}, new int[]{2, 4}));
     }
 }
