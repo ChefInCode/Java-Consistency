@@ -1430,4 +1430,23 @@ public class logicsClass implements logicsInterface {
         return nums;
     }
 
+    @Override
+    public int[] fix45(int[] nums) {
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == 4 && i+1<=nums.length-1 && nums[i + 1] != 5) {
+                while (j < nums.length && !(nums[j] == 5 && (j == 0 || nums[j - 1] != 4))) {
+                    j++;
+                }
+                int temp = nums[i + 1];
+                int a = nums[j];
+                nums[j] = temp;
+                nums[i + 1] = a;
+            }
+
+        }
+        return nums;
+}
+
+
 }
