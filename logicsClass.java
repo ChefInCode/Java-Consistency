@@ -1475,4 +1475,22 @@ public class logicsClass implements logicsInterface {
         return true;
     }
 
+    @Override
+    public int[] squareUp(int n) {
+        int[] res = new int[n * n];
+        int k = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if ((n - j) <= (i + 1)) {
+                    res[k++] = (n - j);
+                } else {
+                    res[k++] = 0;
+                }
+            }
+        }
+
+        return res;
+    }
+
 }

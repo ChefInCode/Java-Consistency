@@ -801,5 +801,11 @@ public class dailyLogics {
         //linearIn([1, 2, 4, 6], [2, 3, 4]) → false
         //linearIn([1, 2, 4, 4, 6], [2, 4]) → true
         System.out.println(lc.linearIn(new int[]{1, 2, 4, 6}, new int[]{2, 4}));
+
+        //Given n>=0, create an array length n*n with the following pattern, shown here for n=3 : {0, 0, 1,    0, 2, 1,    3, 2, 1} (spaces added to show the 3 groups).
+        // squareUp(3) → [0, 0, 1, 0, 2, 1, 3, 2, 1]
+        // squareUp(2) → [0, 1, 2, 1]
+        // squareUp(4) → [0, 0, 0, 1, 0, 0, 2, 1, 0, 3, 2, 1, 4, 3, 2, 1]
+        System.out.println(Arrays.toString(lc.squareUp(3)));
     }
 }
