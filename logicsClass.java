@@ -1493,4 +1493,16 @@ public class logicsClass implements logicsInterface {
         return res;
     }
 
+    @Override
+    public int[] seriesUp(int n) {
+        int res[] = new int[(n * (n + 1) / 2)];
+        int k = 0;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                res[k++] = j;
+            }
+        }
+        return res;
+    }
+
 }

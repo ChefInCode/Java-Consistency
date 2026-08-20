@@ -130,4 +130,5 @@ public interface logicsInterface {
         public boolean canBalance(int[] nums);
          public boolean linearIn(int[] outer, int[] inner);
          public int[] squareUp(int n);
+          public int[] seriesUp(int n);
 }
