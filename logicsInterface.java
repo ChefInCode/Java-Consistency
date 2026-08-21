@@ -131,4 +131,5 @@ public interface logicsInterface {
          public boolean linearIn(int[] outer, int[] inner);
          public int[] squareUp(int n);
           public int[] seriesUp(int n);
+          public int maxMirror(int[] nums);
 }

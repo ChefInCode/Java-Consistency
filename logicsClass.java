@@ -1505,4 +1505,24 @@ public class logicsClass implements logicsInterface {
         return res;
     }
 
+    @Override
+    public int maxMirror(int[] nums) {
+        int maxlen = 0;
+        int n = nums.length - 1;
+        for (int i = 0; i <= n; i++) {
+            for (int j = n; j >= 0; j--) {
+                int a = i;
+                int b = j;
+                int count = 0;
+                while (a <= n && b >= 0 && nums[a] == nums[b]) {
+                    count++;
+                    a++;
+                    b--;
+                }
+                maxlen = Math.max(maxlen, count);
+            }
+        }
+        return maxlen;
+    }
+
 }
