@@ -819,5 +819,11 @@ public class dailyLogics {
         // maxMirror([1, 2, 1, 4]) → 3
         // maxMirror([7, 1, 2, 9, 7, 2, 1]) → 2
         System.out.println(lc.maxMirror(new int[]{1, 2, 3, 8, 9, 3, 2, 1}));
+
+        //Say that a "clump" in an array is a series of 2 or more adjacent elements of the same value. Return the number of clumps in the given array.
+        // countClumps([1, 2, 2, 3, 4, 4]) → 2
+        // countClumps([1, 1, 2, 1, 1]) → 2
+        // countClumps([1, 1, 1, 1, 1]) → 1
+        System.out.println(lc.countClumps(new int[]{1, 2, 2, 3, 4, 4}));
     }
 }

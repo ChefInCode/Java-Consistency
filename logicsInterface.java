@@ -132,4 +132,5 @@ public interface logicsInterface {
          public int[] squareUp(int n);
           public int[] seriesUp(int n);
           public int maxMirror(int[] nums);
+          public int countClumps(int[] nums);
 }

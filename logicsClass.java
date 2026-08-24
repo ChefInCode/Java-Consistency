@@ -1525,4 +1525,19 @@ public class logicsClass implements logicsInterface {
         return maxlen;
     }
 
+    @Override
+    public int countClumps(int[] nums) {
+        int count = 0;
+        int check = 0;
+        boolean checkfirst = true;
+        for (int i = 0; i < nums.length; i++) {
+            if ((checkfirst || check != nums[i]) && (i + 1) < nums.length && nums[i] == nums[i + 1]) {
+                count++;
+                checkfirst = false;
+            }
+            check = nums[i];
+        }
+        return count;
+    }
+
 }
