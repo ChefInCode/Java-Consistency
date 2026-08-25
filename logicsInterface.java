@@ -133,4 +133,5 @@ public interface logicsInterface {
           public int[] seriesUp(int n);
           public int maxMirror(int[] nums);
           public int countClumps(int[] nums);
+          public boolean cigarParty(int cigars, boolean isWeekend);
 }
