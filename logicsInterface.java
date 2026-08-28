@@ -135,4 +135,5 @@ public interface logicsInterface {
           public int countClumps(int[] nums);
           public boolean cigarParty(int cigars, boolean isWeekend);
           public int dateFashion(int you, int date) ;
+           public boolean squirrelPlay(int temp, boolean isSummer);
 }
