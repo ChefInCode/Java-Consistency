@@ -136,4 +136,5 @@ public interface logicsInterface {
           public boolean cigarParty(int cigars, boolean isWeekend);
           public int dateFashion(int you, int date) ;
            public boolean squirrelPlay(int temp, boolean isSummer);
+        public int caughtSpeeding(int speed, boolean isBirthday);
 }
