@@ -137,4 +137,5 @@ public interface logicsInterface {
           public int dateFashion(int you, int date) ;
            public boolean squirrelPlay(int temp, boolean isSummer);
         public int caughtSpeeding(int speed, boolean isBirthday);
+      public int sortaSum(int a, int b);
 }
