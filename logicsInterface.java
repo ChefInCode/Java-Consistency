@@ -138,4 +138,5 @@ public interface logicsInterface {
            public boolean squirrelPlay(int temp, boolean isSummer);
         public int caughtSpeeding(int speed, boolean isBirthday);
       public int sortaSum(int a, int b);
+       public String alarmClock(int day, boolean vacation);
 }

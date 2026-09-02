@@ -1588,4 +1588,9 @@ public class logicsClass implements logicsInterface {
         return (a + b >= 10 && a + b <= 19) ? 20 : a + b;
     }
 
+    @Override
+    public String alarmClock(int day, boolean vacation) {
+        return (day == 0 || day == 6) ? (vacation) ? "off" : "10:00" : (vacation) ? "10:00" : "7:00";
+    }
+
 }
