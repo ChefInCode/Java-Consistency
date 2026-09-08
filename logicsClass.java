@@ -1593,4 +1593,9 @@ public class logicsClass implements logicsInterface {
         return (day == 0 || day == 6) ? (vacation) ? "off" : "10:00" : (vacation) ? "10:00" : "7:00";
     }
 
+    @Override
+    public boolean love6(int a, int b) {
+        return (a == 6 || b == 6 || a + b == 6 || Math.abs(a - b) == 6) ? true : false;
+    }
+
 }
