@@ -1598,4 +1598,10 @@ public class logicsClass implements logicsInterface {
         return (a == 6 || b == 6 || a + b == 6 || Math.abs(a - b) == 6) ? true : false;
     }
 
+    @Override
+    public boolean in1To10(int n, boolean outsideMode) {
+        return outsideMode ?  (n<=1 || n>=10)?true:false : (n>=1 && n<=10)?true:false   ;
+    }
+
+
 }
