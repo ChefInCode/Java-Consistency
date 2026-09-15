@@ -874,6 +874,11 @@ public class dailyLogics {
         // in1To10(11, true) → true
         System.out.println(lc.in1To10(5, false));
 
+        //We'll say a number is special if it is a multiple of 11 or if it is one more than a multiple of 11. Return true if the given non-negative number is special. Use the % "mod" operator -- see Introduction to Mod
+        // specialEleven(22) → true
+        // specialEleven(23) → true
+        // specialEleven(24) → false
+        System.out.println(lc.specialEleven(22));
         
     }
 }

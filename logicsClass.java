@@ -1603,5 +1603,10 @@ public class logicsClass implements logicsInterface {
         return outsideMode ?  (n<=1 || n>=10)?true:false : (n>=1 && n<=10)?true:false   ;
     }
 
+    @Override
+    public boolean specialEleven(int n) {
+  return (n%11==0 || (n-1)%11==0)?true:false;
+}
+
 
 }
