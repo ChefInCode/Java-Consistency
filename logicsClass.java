@@ -1600,13 +1600,17 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public boolean in1To10(int n, boolean outsideMode) {
-        return outsideMode ?  (n<=1 || n>=10)?true:false : (n>=1 && n<=10)?true:false   ;
+        return outsideMode ? (n <= 1 || n >= 10) ? true : false : (n >= 1 && n <= 10) ? true : false;
     }
 
     @Override
     public boolean specialEleven(int n) {
-  return (n%11==0 || (n-1)%11==0)?true:false;
-}
+        return (n % 11 == 0 || (n - 1) % 11 == 0) ? true : false;
+    }
 
+    @Override
+    public boolean more20(int n) {
+        return ((n - 1) % 20 == 0 || (n - 2) % 20 == 0) ? true : false;
+    }
 
 }
