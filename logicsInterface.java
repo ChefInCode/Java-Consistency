@@ -143,4 +143,5 @@ public interface logicsInterface {
         public boolean in1To10(int n, boolean outsideMode);
       public boolean specialEleven(int n);
       public boolean more20(int n);
+      public boolean old35(int n);
 }

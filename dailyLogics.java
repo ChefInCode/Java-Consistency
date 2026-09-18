@@ -886,5 +886,11 @@ public class dailyLogics {
         // more20(22) → true
         System.out.println(lc.more20(20));
 
+        //Return true if the given non-negative number is a multiple of 3 or 5, but not both. Use the % "mod" operator -- see Introduction to Mod
+        // old35(3) → true
+        // old35(10) → true
+        // old35(15) → false
+        System.out.println(lc.old35(3));
+
     }
 }
