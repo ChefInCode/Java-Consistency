@@ -1615,8 +1615,12 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public boolean old35(int n) {
-        return ((n%3==0 && n%5!=0)||(n%3!=0 && n%5==0))?true:false;
+        return ((n % 3 == 0 && n % 5 != 0) || (n % 3 != 0 && n % 5 == 0)) ? true : false;
     }
 
+    @Override
+    public boolean less20(int n) {
+        return (((n + 1) % 20 == 0) || ((n + 2) % 20 == 0)) ? true : false;
+    }
 
 }

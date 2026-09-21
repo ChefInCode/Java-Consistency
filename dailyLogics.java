@@ -892,5 +892,10 @@ public class dailyLogics {
         // old35(15) → false
         System.out.println(lc.old35(3));
 
+        //Return true if the given non-negative number is 1 or 2 less than a multiple of 20. So for example 38 and 39 return true, but 40 returns false. See also: Introduction to Mod
+        // less20(18) → true
+        // less20(19) → true
+        // less20(20) → false
+        System.out.println(lc.less20(18));
     }
 }
