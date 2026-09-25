@@ -1623,4 +1623,10 @@ public class logicsClass implements logicsInterface {
         return (((n + 1) % 20 == 0) || ((n + 2) % 20 == 0)) ? true : false;
     }
 
+    @Override
+    public boolean nearTen(int num) {
+        return ((num - 2) % 10 == 0 || (num - 1) % 10 == 0 || (num) % 10 == 0 || (num + 1) % 10 == 0
+                || (num + 2) % 10 == 0) ? true : false;
+    }
+
 }
