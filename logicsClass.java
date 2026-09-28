@@ -1639,4 +1639,10 @@ public class logicsClass implements logicsInterface {
         return (isMorning) ? (isMom && !isAsleep) ? true : false : (isAsleep) ? false : true;
     }
 
+    @Override
+    public int teaParty(int tea, int candy) {
+        return ((tea >= 5 && candy >= 5) && ((tea >= (candy * 2)) || (candy >= (tea * 2)))) ? 2
+                : (tea >= 5 && candy >= 5) ? 1 : 0;
+    }
+
 }

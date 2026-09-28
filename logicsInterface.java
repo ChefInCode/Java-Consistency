@@ -148,4 +148,5 @@ public interface logicsInterface {
       public boolean nearTen(int num);
       public int teenSum(int a, int b);
       public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep);
+      public int teaParty(int tea, int candy);  
 }
