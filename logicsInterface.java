@@ -147,4 +147,5 @@ public interface logicsInterface {
       public boolean less20(int n);
       public boolean nearTen(int num);
       public int teenSum(int a, int b);
+      public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep);
 }
