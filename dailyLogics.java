@@ -903,5 +903,11 @@ public class dailyLogics {
         // nearTen(17) → false
         // nearTen(19) → true
         System.out.println(lc.nearTen(12));
+
+        // Given 2 ints, a and b, return their sum. However, "teen" values in the range 13..19 inclusive, are extra lucky. So if either value is a teen, just return 19.
+        // teenSum(3, 4) → 7
+        // teenSum(10, 13) → 19
+        // teenSum(13, 2) → 19
+        System.out.println(lc.teenSum(3, 4));
     }
 }
