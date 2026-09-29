@@ -150,4 +150,5 @@ public interface logicsInterface {
       public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep);
       public int teaParty(int tea, int candy);  
       public String fizzString(String str);
+      public String fizzString2(int n);
 }
