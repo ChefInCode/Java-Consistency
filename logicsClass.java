@@ -1645,4 +1645,10 @@ public class logicsClass implements logicsInterface {
                 : (tea >= 5 && candy >= 5) ? 1 : 0;
     }
 
+    @Override
+    public String fizzString(String str) {
+        return (str.startsWith("f") && str.endsWith("b")) ? "FizzBuzz"
+                : (str.startsWith("f")) ? "Fizz" : (str.endsWith("b")) ? "Buzz" : str;
+    }
+
 }

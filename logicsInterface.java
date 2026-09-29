@@ -149,4 +149,5 @@ public interface logicsInterface {
       public int teenSum(int a, int b);
       public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep);
       public int teaParty(int tea, int candy);  
+      public String fizzString(String str);
 }
