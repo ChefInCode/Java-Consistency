@@ -933,5 +933,11 @@ public class dailyLogics {
         // fizzString2(2) → "2!"
         // fizzString2(3) → "Fizz!"
         System.out.println(lc.fizzString2(1));
+
+        //Given three ints, a b c, return true if it is possible to add two of the ints to get the third.
+        // twoAsOne(1, 2, 3) → true
+        // twoAsOne(3, 1, 2) → true
+        // twoAsOne(3, 2, 2) → false
+        System.out.println(lc.twoAsOne(1, 2, 3));
     }
 }

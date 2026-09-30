@@ -1656,4 +1656,9 @@ public class logicsClass implements logicsInterface {
         return (n % 3 == 0 && n % 5 == 0) ? "FizzBuzz!" : (n % 3 == 0) ? "Fizz!" : (n % 5 == 0) ? "Buzz!" : n + "!";
     }
 
+    @Override
+    public boolean twoAsOne(int a, int b, int c) {
+        return (a + b) == c || (b + c) == a || (a + c) == b ? true : false;
+    }
+
 }

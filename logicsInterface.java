@@ -151,4 +151,5 @@ public interface logicsInterface {
       public int teaParty(int tea, int candy);  
       public String fizzString(String str);
       public String fizzString2(int n);
+      public boolean twoAsOne(int a, int b, int c);
 }
