@@ -1661,4 +1661,9 @@ public class logicsClass implements logicsInterface {
         return (a + b) == c || (b + c) == a || (a + c) == b ? true : false;
     }
 
+    @Override
+    public boolean inOrder(int a, int b, int c, boolean bOk) {
+  return (c>b)? (bOk)?true:(b>a)?true:false  : false;
+}
+
 }
