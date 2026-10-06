@@ -1663,13 +1663,21 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public boolean inOrder(int a, int b, int c, boolean bOk) {
-  return (c>b)? (bOk)?true:(b>a)?true:false  : false;
-}
+        return (c > b) ? (bOk) ? true : (b > a) ? true : false : false;
+    }
 
     @Override
     public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
-  return !equalOk ? (a<b && b<c) ? true : false :  (a<=b && b<=c) ? true : false;
-}
+        return !equalOk ? (a < b && b < c) ? true : false : (a <= b && b <= c) ? true : false;
+    }
 
+    @Override
+    public boolean lastDigit(int a, int b, int c) {
+        int remA = a % 10;
+        int remB = b % 10;
+        int remC = c % 10;
+
+        return (remA == remB || remB == remC || remA == remC);
+    }
 
 }

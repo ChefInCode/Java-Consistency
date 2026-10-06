@@ -154,4 +154,5 @@ public interface logicsInterface {
       public boolean twoAsOne(int a, int b, int c);
       public boolean inOrder(int a, int b, int c, boolean bOk);
       public boolean inOrderEqual(int a, int b, int c, boolean equalOk);
+      public boolean lastDigit(int a, int b, int c);
 }
