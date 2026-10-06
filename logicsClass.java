@@ -1666,4 +1666,10 @@ public class logicsClass implements logicsInterface {
   return (c>b)? (bOk)?true:(b>a)?true:false  : false;
 }
 
+    @Override
+    public boolean inOrderEqual(int a, int b, int c, boolean equalOk) {
+  return !equalOk ? (a<b && b<c) ? true : false :  (a<=b && b<=c) ? true : false;
+}
+
+
 }

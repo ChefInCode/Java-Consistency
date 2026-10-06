@@ -153,4 +153,5 @@ public interface logicsInterface {
       public String fizzString2(int n);
       public boolean twoAsOne(int a, int b, int c);
       public boolean inOrder(int a, int b, int c, boolean bOk);
+      public boolean inOrderEqual(int a, int b, int c, boolean equalOk);
 }
