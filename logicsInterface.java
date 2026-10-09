@@ -157,4 +157,5 @@ public interface logicsInterface {
       public boolean lastDigit(int a, int b, int c);
       public boolean lessBy10(int a, int b, int c);
       public int withoutDoubles(int die1, int die2, boolean noDoubles);
+      public int maxMod5(int a, int b);
 }
