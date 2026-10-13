@@ -1706,7 +1706,19 @@ public class logicsClass implements logicsInterface {
 
     @Override
     public int maxMod5(int a, int b) {
- return ( a%5==b%5 ) ? (a==b)?0:(a>b)?b:a : (a>b)?a:b ;
-}
+        return (a % 5 == b % 5) ? (a == b) ? 0 : (a > b) ? b : a : (a > b) ? a : b;
+    }
+
+    @Override
+    public int redTicket(int a, int b, int c) {
+        if (a == b && b == c && c == 2)
+            return 10;
+        if (a == b && b == c)
+            return 5;
+        if (a != b && a != c)
+            return 1;
+        else
+            return 0;
+    }
 
 }
