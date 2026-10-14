@@ -159,4 +159,5 @@ public interface logicsInterface {
       public int withoutDoubles(int die1, int die2, boolean noDoubles);
       public int maxMod5(int a, int b);
       public int redTicket(int a, int b, int c);
+       public int greenTicket(int a, int b, int c);
 }
