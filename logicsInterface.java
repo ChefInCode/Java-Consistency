@@ -162,4 +162,5 @@ public interface logicsInterface {
       public int greenTicket(int a, int b, int c);
       public int blueTicket(int a, int b, int c);
       public boolean shareDigit(int a, int b);
+      public int sumLimit(int a, int b);
 }

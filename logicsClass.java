@@ -1746,4 +1746,9 @@ public class logicsClass implements logicsInterface {
         return (a / 10 == b / 10 || a % 10 == b % 10 || a / 10 == b % 10 || a % 10 == b / 10) ? true : false;
     }
 
+    @Override
+    public int sumLimit(int a, int b) {
+        return (String.valueOf(a + b).length() == String.valueOf(a).length()) ? a + b : a;
+    }
+
 }
