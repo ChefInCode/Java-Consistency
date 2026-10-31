@@ -164,4 +164,5 @@ public interface logicsInterface {
       public boolean shareDigit(int a, int b);
       public int sumLimit(int a, int b);
       public boolean makeBricks(int small, int big, int goal);
+      public int loneSum(int a, int b, int c);
 }

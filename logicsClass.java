@@ -1765,4 +1765,13 @@ public class logicsClass implements logicsInterface {
         return true;
     }
 
+    @Override
+    public int loneSum(int a, int b, int c) {
+        int sum = 0;
+        sum += (a != b && a != c) ? a : 0;
+        sum += (b != c && b != a) ? b : 0;
+        sum += (c != a && c != b) ? c : 0;
+        return sum;
+    }
+
 }

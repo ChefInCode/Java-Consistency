@@ -1010,5 +1010,12 @@ public class dailyLogics {
         // makeBricks(3, 1, 8) → true
         // makeBricks(3, 1, 9) → false
         // makeBricks(3, 2, 10) → true
+        System.out.println(lc.makeBricks(3, 1, 8));
+
+        //Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
+        // loneSum(1, 2, 3) → 6
+        // loneSum(3, 2, 3) → 2
+        // loneSum(3, 3, 3) → 0
+        System.out.println(lc.loneSum(1, 2, 3));
     }
 }
