@@ -165,4 +165,5 @@ public interface logicsInterface {
       public int sumLimit(int a, int b);
       public boolean makeBricks(int small, int big, int goal);
       public int loneSum(int a, int b, int c);
+      public int luckySum(int a, int b, int c);
 }
