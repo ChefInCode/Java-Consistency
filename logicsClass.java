@@ -1796,4 +1796,17 @@ public class logicsClass implements logicsInterface {
         return sum;
     }
 
+    @Override
+    public int noTeenSum(int a, int b, int c) {
+        int sum = 0;
+        sum += fixTeen(a);
+        sum += fixTeen(b);
+        sum += fixTeen(c);
+        return sum;
+    }
+
+    public int fixTeen(int n) {
+        return (n == 13 || n == 14 || n >= 17 && n <= 19) ? 0 : n;
+    }
+
 }
