@@ -1809,4 +1809,31 @@ public class logicsClass implements logicsInterface {
         return (n == 13 || n == 14 || n >= 17 && n <= 19) ? 0 : n;
     }
 
+    @Override
+    public int roundSum(int a, int b, int c) {
+        int sum = 0;
+        sum += round10(a);
+        sum += round10(b);
+        sum += round10(c);
+        return sum;
+    }
+
+    public int round10(int n) {
+        if (n % 10 >= 5) {
+            for (int i = n; i > 1; i++) {
+                if (i % 10 == 0) {
+                    return i;
+                }
+            }
+        } else {
+            for (int i = n; i >= 1; i--) {
+                if (i % 10 == 0) {
+                    return i;
+                }
+            }
+        }
+        return 0;
+
+    }
+
 }
