@@ -168,4 +168,5 @@ public interface logicsInterface {
       public int luckySum(int a, int b, int c);
       public int noTeenSum(int a, int b, int c);
       public int roundSum(int a, int b, int c);
+      public boolean closeFar(int a, int b, int c);
 }
