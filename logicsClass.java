@@ -1847,4 +1847,9 @@ public class logicsClass implements logicsInterface {
         }
     }
 
+    @Override
+    public int blackjack(int a, int b) {
+        return (a > 21 && b > 21) ? 0 : (a - 21) >= (b - 21) ? (a > 21) ? b : a : (b > 21) ? a : b;
+    }
+
 }

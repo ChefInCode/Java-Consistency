@@ -169,4 +169,5 @@ public interface logicsInterface {
       public int noTeenSum(int a, int b, int c);
       public int roundSum(int a, int b, int c);
       public boolean closeFar(int a, int b, int c);
+      public int blackjack(int a, int b);
 }
