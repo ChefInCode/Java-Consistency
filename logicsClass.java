@@ -1852,4 +1852,12 @@ public class logicsClass implements logicsInterface {
         return (a > 21 && b > 21) ? 0 : (a - 21) >= (b - 21) ? (a > 21) ? b : a : (b > 21) ? a : b;
     }
 
+    @Override
+    public boolean evenlySpaced(int a, int b, int c) {
+        if (a == b && a != c || a == c && a != b || b == c && a != b)
+            return false;
+        return (Math.abs(a - b) == Math.abs(b - c) || Math.abs(a - b) == Math.abs(a - c)
+                || Math.abs(b - c) == Math.abs(a - c)) ? true : false;
+    }
+
 }
