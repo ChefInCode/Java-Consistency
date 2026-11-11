@@ -1860,4 +1860,22 @@ public class logicsClass implements logicsInterface {
                 || Math.abs(b - c) == Math.abs(a - c)) ? true : false;
     }
 
+    @Override
+    public int makeChocolate(int small, int big, int goal) {
+        int check = 0;
+        for (int i = 1; i <= big; i++) {
+            if (goal >= 5)
+                goal -= 5;
+        }
+        if (goal == 0)
+            return 0;
+        for (int i = 1; i <= small && goal != 0; i++) {
+            if (goal >= 1)
+                goal -= 1;
+            check = i;
+        }
+
+        return (goal == 0) ? check : -1;
+    }
+
 }
