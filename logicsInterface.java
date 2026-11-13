@@ -172,4 +172,5 @@ public interface logicsInterface {
       public int blackjack(int a, int b);
       public boolean evenlySpaced(int a, int b, int c);
       public int makeChocolate(int small, int big, int goal);
+      public Map<String, String> mapBully(Map<String, String> map);
 }

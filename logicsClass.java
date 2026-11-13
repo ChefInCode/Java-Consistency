@@ -1878,4 +1878,13 @@ public class logicsClass implements logicsInterface {
         return (goal == 0) ? check : -1;
     }
 
+    @Override
+    public Map<String, String> mapBully(Map<String, String> map) {
+        if (map.containsKey("a")) {
+            map.put("b", map.get("a"));
+            map.put("a", "");
+        }
+        return map;
+    }
+
 }
