@@ -173,4 +173,5 @@ public interface logicsInterface {
       public boolean evenlySpaced(int a, int b, int c);
       public int makeChocolate(int small, int big, int goal);
       public Map<String, String> mapBully(Map<String, String> map);
+      public Map<String, String> mapShare(Map<String, String> map);
 }
