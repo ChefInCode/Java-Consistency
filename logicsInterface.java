@@ -178,4 +178,5 @@ public interface logicsInterface {
       public Map<String, String> mapShare(Map<String, String> map);
       public Map<String, String> mapAB(Map<String, String> map);
       public Map<String, String> topping1(Map<String, String> map);
+      public Map<String, String> topping2(Map<String, String> map);
 }
